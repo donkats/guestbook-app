@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
 	siteMetadata: {
 		title: 'Gatsby Bulma Quickstart',
@@ -18,7 +20,7 @@ module.exports = {
 			options: {
 				// The secret for the key you're using to connect to your Fauna database.
 				// You can generate on of these in the "Security" tab of your Fauna Console.
-				secret: "fnADzn8NqAACBj6nulk7AAKsy3hY2-4b7LtG1Dsm",
+				secret: process.env.YOUR_FAUNADB_SECRET,
 				// The name of the index you want to query
 				// You can create an index in the "Indexes" tab of your Fauna Console.
 				index: `allSignatures`,
