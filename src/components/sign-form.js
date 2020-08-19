@@ -2,7 +2,7 @@ import React from 'react';
 import './style.scss';
 import faunadb, { query as q } from "faunadb"
 
-var client = new faunadb.Client({ secret: "process.env.GATSBY_FAUNA_CLIENT_SECRET" })
+var client = new faunadb.Client({ secret: "fnADzn-jkrACBZEHE3zkdY6rPegogWk-LB-GXw1A" })
 
 export default class SignForm extends React.Component {
     state = {
