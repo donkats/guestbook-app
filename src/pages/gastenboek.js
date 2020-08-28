@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout";
-import Signatures from './signatures';
-import SignForm from './sign-form';
+import Signatures from '../components/signatures';
+import SignForm from '../components/sign-form';
 
 
 const Gastenboek = () => {
