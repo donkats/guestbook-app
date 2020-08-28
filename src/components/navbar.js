@@ -7,7 +7,7 @@ function Navbar() {
   const [isActive, setisActive] = React.useState(false);
 
   return (
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <a
           onClick={() => {
@@ -27,7 +27,7 @@ function Navbar() {
 
       <div id="navbarBasicExample" className={`navbar-menu ${isActive ? "is-active" : ""}`}
       >
-        <div class="navbar-start">
+        <div className="navbar-start">
           <Link className="navbar-item" to="/">
             Home
     </Link>
@@ -48,7 +48,7 @@ function Navbar() {
             Foto's
     </Link>
 
-          <hr class="navbar-divider" />
+          <hr className="navbar-divider" />
 
           <Link className="navbar-item" to="/gastenboek">
             Gastenboek
