@@ -1,14 +1,14 @@
 import React from "react";
 import Layout from "../components/layout";
 
-const Home = () => (
+const OverOns = () => (
   <Layout>
-    <h1>Home</h1>
+    <h1>Over ons</h1>
     <p>
-      Home
+      Over ons text
     </p>
 
   </Layout>
 )
 
-export default Home;
+export default OverOns;

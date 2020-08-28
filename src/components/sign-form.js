@@ -1,27 +1,19 @@
 import React from 'react';
-
+import '../components/style.scss';
 import faunadb, { query as q } from "faunadb"
 
-var client = new faunadb.Client({ secret: process.env.GATSBY_FAUNA_CLIENT_SECRET })
+var client = new faunadb.Client({ secret: "process.env.GATSBY_FAUNA_CLIENT_SECRET" })
 
 export default class SignForm extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            sigName: "",
-            sigMessage: ""
-        }
-    }
-
-    triggerBuild = async () => {
-        const response = await fetch(process.env.GATSBY_BUILD_HOOK, { method: "POST", body: "{}" });
-        return response;
+    state = {
+      sigName: "",
+      sigMessage: ""
     }
 
     handleSubmit = async event => {
         event.preventDefault();
         const placeSig = await this.createSignature(this.state.sigName, this.state.sigMessage);
-        this.props.setSigData(oldState => [...oldState, placeSig]);
+        this.addSignature(placeSig);
     }
 
     handleInputChange = event => {
@@ -32,31 +24,24 @@ export default class SignForm extends React.Component {
             [name]: value,
         })
     }
+    addSignature(signatureInfo) {
+        const { time, name, message, id } = signatureInfo;
+        this.props.setSigData(oldState => [...oldState, signatureInfo]);
+        console.log(time, name, message, id);
+    }
     createSignature = async (sigName, sigMessage) => {
-        try {
-            const queryResponse = await client.query(
-                q.Create(
-                    q.Collection('signatures'),
-                    { 
-                        data: { 
-                            name: sigName,
-                            message: sigMessage
-                        } 
-                    }
-                )
+        const queryResponse = await client.query(
+            q.Create(
+                q.Collection('signatures'),
+                { 
+                    data: { 
+                        name: sigName,
+                        message: sigMessage
+                    } 
+                }
             )
-            const signatureInfo = { 
-                name: queryResponse.data.name, 
-                message: queryResponse.data.message, 
-                _ts: queryResponse.ts, 
-                _id: queryResponse.id
-            }
-            const buildResponse = this.triggerBuild();
-            console.log(await buildResponse)
-            return signatureInfo
-        } catch(err) {
-            console.log(err);
-        }
+        )
+        return { time: queryResponse.ts, name: sigName, message: sigMessage, id: queryResponse.id }
     }
 
     render() {
