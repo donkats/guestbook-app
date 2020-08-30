@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout";
 import Signatures from '../components/signatures';
 import SignForm from '../components/sign-form';
+import '../components/style.scss';
 
 
 const Gastenboek = () => {
@@ -21,6 +22,7 @@ const Gastenboek = () => {
 			}`
 	);
 	const [sigData, setSigData] = useState(data.allSignatures.nodes);
+
 	return (
 		<Layout>
 			<section className="section">

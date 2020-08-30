@@ -1,29 +1,41 @@
-// Importing variables
+
+
 @import './variables.scss';
+@import "~react-image-gallery/styles/css/image-gallery.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
-// Importing Bulma from node_modules
-@import '~bulma/bulma.sass';
-
-.gradientBg {
-	display: flex;
-	background: linear-gradient(to right, $primary-color, $secondary-color);
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../assets/background-wide.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
 }
 
-.center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.hr {
+    background-color: blue;
 }
 
-.footer {
-	display: flex;
-	padding: 1.5rem 1.5rem;
-	line-height: 1.5rem;
-	a {
-		border-bottom: 1px solid;
-		color: black;
-	}
-	a:hover {
-		color: $secondary-color;
-	}
+.columns {
+    margin: 0;
+    padding-top: 5vh;
+    opacity: 92%;
+    border: 0;
 }
+
+.title {
+    align-items: center;
+}
+
+.section{
+    color: blue;
+    background-color: white;
+  }
+
+.container {
+    color: blue;
+}
+
+  @import '~bulma/bulma.sass';
