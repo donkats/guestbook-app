@@ -1,26 +1,14 @@
-import React from "react"
+import React from 'react'
+import { Link } from 'gatsby'
 
+const Footer = () => (
 
-const Footer = () => {
-  
-  
-  return (
-    <div class="hero-foot">
-    <nav class="tabs">
-      <div class="container">
-        <ul>
-          <li class="is-active"><a>Overview</a></li>
-          <li><a>Modifiers</a></li>
-          <li><a>Grid</a></li>
-          <li><a>Elements</a></li>
-          <li><a>Components</a></li>
-          <li><a>Layout</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-
-  )
-}
+<footer class="footer">
+<div class="content has-text-centered">
+<p>Copyright Immediate Start Jobs 2018</p>
+<Link to="/">Home</Link>
+</div>
+</footer>
+)
 
 export default Footer
