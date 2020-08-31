@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #999;
+    background-color: blue;
 }
 
 .hr {
@@ -36,6 +36,14 @@ body {
 
 .container {
     color: blue;
+}
+
+#page-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%
 }
 
   @import '~bulma/bulma.sass';

@@ -5,7 +5,7 @@ import '../components/style.scss';
 const Appartement = (props) => {
   return (
     <Layout>
-      <div class="container  has-background-white mx6">
+      <div class="container has-background-white" id="page-container">
       
           <h2 class="title is-2 has-text-centered">Appartement</h2>
           <hr class="hr" />
