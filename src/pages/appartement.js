@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from "../components/layout";
 import '../components/style.scss';
 
-const Appartement = () => {
+const Appartement = (props) => {
   return (
     <Layout>
       <section class="section">

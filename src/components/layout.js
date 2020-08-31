@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from './navbar';
 import Footer from './footer';
 import './style.scss';
+import PropTypes from "prop-types";
+
 
 const Layout = ({ children }) => {
   return (
@@ -17,6 +19,10 @@ const Layout = ({ children }) => {
       </div>
     </>
   )
+}
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
 }
 
 export default Layout
