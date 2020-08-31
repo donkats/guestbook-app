@@ -5,9 +5,10 @@ import '../components/style.scss';
 const Appartement = (props) => {
   return (
     <Layout>
+      <section class="section"></section>
       <div class="columns is-centered">
       <div class="column is-three-quarters">
-      <section class="section">
+      
         <div class="container container--small">
           <h2 class="title is-2 has-text-centered">Appartement</h2>
           <hr class="hr" />
@@ -48,9 +49,10 @@ const Appartement = (props) => {
             Er zijn 2 zwembadkaarten voor de ligbedden en parasols aan het zwembad.
         </div>
         </div>
+   
+      </div>
+      </div>
       </section>
-      </div>
-      </div>
     </Layout>
 
   );
