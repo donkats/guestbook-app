@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url("../assets/background-wide.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -39,3 +38,7 @@ body {
 }
 
   @import '~bulma/bulma.sass';
+
+  body{
+    background-image: url("../assets/background-wide.jpg");
+  }
