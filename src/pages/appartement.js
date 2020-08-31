@@ -6,13 +6,13 @@ const Appartement = (props) => {
   return (
     <Layout>
       <div class="columns is-centered">
-      <div class="column is-three-quarters">
+      <div class="column is-three-quarters has-background-white	">
       
-        <div class="container container--small">
+
           <h2 class="title is-2 has-text-centered">Appartement</h2>
           <hr class="hr" />
-        </div>
-        <div class="container container--small">
+
+
 
           <div class="container">
             Ons appartement is gelegen aan de oceaanzijde van het complex op de 1e verdieping en is
@@ -50,7 +50,7 @@ const Appartement = (props) => {
         </div>
    
       </div>
-      </div>
+
     </Layout>
 
   );
