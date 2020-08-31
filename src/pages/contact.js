@@ -14,9 +14,7 @@ const Contact = (props) => {
         <hr class="hr" />
 
         <div class="container">
-          <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
-            <input type="hidden" name="bot-field" />
-            <input type="hidden" name="form-name" value="contact" /></form>
+
         </div>
         <br />
         <div class="container">
