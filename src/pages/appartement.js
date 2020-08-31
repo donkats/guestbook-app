@@ -5,14 +5,10 @@ import '../components/style.scss';
 const Appartement = (props) => {
   return (
     <Layout>
-      <div class="columns is-centered">
-      <div class="column is-three-quarters has-background-white	">
+      <div class="container  has-background-white mx6">
       
-
           <h2 class="title is-2 has-text-centered">Appartement</h2>
           <hr class="hr" />
-
-
 
           <div class="container">
             Ons appartement is gelegen aan de oceaanzijde van het complex op de 1e verdieping en is
@@ -46,7 +42,6 @@ const Appartement = (props) => {
             In het appartement is een kluisje aanwezig. U kunt tevens gebruik maken van de gratis WIFI en u
             kunt uw favoriete televisiezender volgen via canal-digitaal (NL) of TV Vlaanderen (BE).
             Er zijn 2 zwembadkaarten voor de ligbedden en parasols aan het zwembad.
-        </div>
         </div>
    
       </div>
