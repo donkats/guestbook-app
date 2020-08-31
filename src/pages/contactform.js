@@ -1,59 +1,32 @@
 import React from 'react';
 
-const encode = (data) => {
-    return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&");
+const ContactForm = (props) => {
+
+  return (
+    
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+
+  )
 }
 
-class ContactForm extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = { name: "", email: "", message: "" };
-    }
-
-    handleSubmit = e => {
-        fetch("/", {
-            method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: encode({ "form-name": "contact", ...this.state })
-        })
-            .then(() => alert("Uw bericht is succesvol verzonden!"))
-            .catch(error => alert(error));
-
-        e.preventDefault();
-    };
-
-    handleChange = e => this.setState({ [e.target.name]: e.target.value });
-
-    render() {
-        const { name, email, message } = this.state;
-        return (
-            <form onSubmit={this.handleSubmit}>
-                <p>
-                    <label>
-
-                        Naam:
-                    <input type="text" name="name" value={name} onChange={this.handleChange} />
-
-                    </label>
-                    <label>
-
-                        E-mailadres:
-                <input type="email" name="email" value={email} onChange={this.handleChange} />
-
-                    </label>
-                    <label>
-
-                        Bericht:
-                <textarea name="message" value={message} onChange={this.handleChange} />
-
-                    </label>
-                    <button type="submit">Verzenden</button>
-                </p>
-            </form>
-        );
-    }
-}
 
 export default ContactForm;
