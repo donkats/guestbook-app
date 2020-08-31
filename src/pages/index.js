@@ -2,23 +2,27 @@ import React from "react";
 import Layout from "../components/layout";
 import '../components/style.scss';
 
-const Home = () => {
+const Home = (props) => {
   return (
     <Layout>
-      <section className="section">
-        <div className="container container--small">
-          <section className="section is-small">
-            <h2 className="title is-4">Home</h2>
+      <div class="container has-background-white" id="page-container">
+      
+          <h2 class="title is-2 has-text-centered">Appartement</h2>
+          <hr class="hr" />
 
-          </section>
+          <div class="container">
+            Ons appartement is gelegen aan de oceaanzijde van het complex op de 1e verdieping en is
+            bereikbaar via een trap aan de voorzijde.
+          </div>
+          <br />
+          <div class="container">
+            Ons appartement is modern ingericht, met voldoende opbergmogelijkheden.
+            In de woonkamer staat een lederen bank die tevens dienst doet als ruime 2 persoons slaapbank. Ook
+            staat er een comfortabele losse stoel.
+          </div>
+   
+      </div>
 
-          <section className="section">
-            <hr />
-
-            <p>Home</p>
-          </section>
-        </div>
-      </section>
     </Layout>
 
   );

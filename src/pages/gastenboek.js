@@ -22,10 +22,18 @@ const Gastenboek = () => {
 			}`
 	);
 	const [sigData, setSigData] = useState(data.allSignatures.nodes);
-
 	return (
 		<Layout>
-			<section className="section">
+			<div class="container has-background-white" id="page-container">
+
+				<h2 class="title is-2 has-text-centered">Appartement</h2>
+				<hr class="hr" />
+
+				<div class="container">
+					Ons appartement is gelegen aan de oceaanzijde van het complex op de 1e verdieping en is
+					bereikbaar via een trap aan de voorzijde.
+          </div>
+				<br />
 				<div className="container container--small">
 					<section className="section is-small">
 						<h2 className="title is-4">Sign here</h2>
@@ -37,10 +45,11 @@ const Gastenboek = () => {
 						<Signatures sigData={sigData}></Signatures>
 					</section>
 				</div>
-			</section>
+
+			</div>
+
 		</Layout>
 	)
-
 }
 
 export default Gastenboek;
