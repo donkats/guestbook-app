@@ -5,6 +5,8 @@ import '../components/style.scss';
 const Appartement = (props) => {
   return (
     <Layout>
+      <div class="columns is-centered">
+      <div class="column is-three-quarters">
       <section class="section">
         <div class="container container--small">
           <h2 class="title is-2 has-text-centered">Appartement</h2>
@@ -47,6 +49,8 @@ const Appartement = (props) => {
         </div>
         </div>
       </section>
+      </div>
+      </div>
     </Layout>
 
   );
