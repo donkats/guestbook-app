@@ -8,8 +8,8 @@ import '../components/style.scss';
 
 
 const Gastenboek = () => {
-	const data = useStaticQuery(
-		graphql`
+  const data = useStaticQuery(
+    graphql`
 			query GetSignatures {
 				allSignatures {
 				  nodes {
@@ -20,36 +20,36 @@ const Gastenboek = () => {
 				  }
 				}
 			}`
-	);
-	const [sigData, setSigData] = useState(data.allSignatures.nodes);
-	return (
-		<Layout>
-			<div class="container has-background-white" id="page-container">
+  );
+  const [sigData, setSigData] = useState(data.allSignatures.nodes);
+  return (
+    <Layout>
+      <div class="container has-background-white" id="page-container">
 
-				<h2 class="title is-2 has-text-centered">Appartement</h2>
-				<hr class="hr" />
+        <h2 class="title is-2 has-text-centered">Appartement</h2>
+        <hr class="hr" />
 
-				<div class="container">
-					Ons appartement is gelegen aan de oceaanzijde van het complex op de 1e verdieping en is
-					bereikbaar via een trap aan de voorzijde.
+        <div class="container">
+          Ons appartement is gelegen aan de oceaanzijde van het complex op de 1e verdieping en is
+          bereikbaar via een trap aan de voorzijde.
           </div>
-				<br />
-				<div className="container container--small">
-					<section className="section is-small">
-						<h2 className="title is-4">Sign here</h2>
-						<SignForm setSigData={setSigData}></SignForm>
-					</section>
+        <br />
+        <div className="container container--small">
+          <section className="section is-small">
+            <h2 className="title is-4">Sign here</h2>
+            <SignForm setSigData={setSigData}></SignForm>
+          </section>
 
-					<section className="section">
-						<h2 className="title is-5">View Signatures</h2>
-						<Signatures sigData={sigData}></Signatures>
-					</section>
-				</div>
+          <section className="section">
+            <h2 className="title is-5">View Signatures</h2>
+            <Signatures sigData={sigData}></Signatures>
+          </section>
+        </div>
 
-			</div>
+      </div>
 
-		</Layout>
-	)
+    </Layout>
+  )
 }
 
 export default Gastenboek;

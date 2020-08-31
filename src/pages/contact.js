@@ -1,24 +1,26 @@
 import React from "react";
+import ContactForm from './contactform';
 import Layout from "../components/layout";
 import '../components/style.scss';
+
 
 const Contact = (props) => {
   return (
     <Layout>
+
       <div class="container has-background-white" id="page-container">
       
           <h2 class="title is-2 has-text-centered">Appartement</h2>
           <hr class="hr" />
 
           <div class="container">
-            Ons appartement is gelegen aan de oceaanzijde van het complex op de 1e verdieping en is
-            bereikbaar via een trap aan de voorzijde.
+          <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
+<input type="hidden" name="bot-field" />
+<input type="hidden" name="form-name" value="contact" /></form>
           </div>
           <br />
           <div class="container">
-            Ons appartement is modern ingericht, met voldoende opbergmogelijkheden.
-            In de woonkamer staat een lederen bank die tevens dienst doet als ruime 2 persoons slaapbank. Ook
-            staat er een comfortabele losse stoel.
+          <ContactForm></ContactForm>
           </div>
    
       </div>
