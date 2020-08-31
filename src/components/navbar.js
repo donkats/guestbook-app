@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <div>
-      <section class="hero is-primary header-image">
+      <section>
         <div class="hero-head">
           <header class="navbar">
             <nav className="navbar" role="navigation" aria-label="main navigation">
