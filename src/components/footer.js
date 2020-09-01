@@ -5,8 +5,7 @@ const Footer = () => (
 
 <footer class="footer">
 <div class="content has-text-centered">
-<p>Copyright Immediate Start Jobs 2018</p>
-<Link to="/">Home</Link>
+<p>Copyright Rocas Tenerife 2020</p>
 </div>
 </footer>
 )

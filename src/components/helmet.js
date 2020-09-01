@@ -34,6 +34,8 @@ export default () => (
 					content={data.site.siteMetadata.description}
 				/>
 				<meta itemprop="image" content={data.site.siteMetadata.imageUrl} />
+
+				<script src="https://kit.fontawesome.com/a0a8c9f99c.js" crossorigin="anonymous"></script>
 			</Helmet>
 		)}
 	/>
