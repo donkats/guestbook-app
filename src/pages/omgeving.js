@@ -4,10 +4,7 @@ import '../components/style.scss';
 
 const Omgeving = (props) => {
   return (
-    
-    
     <Layout>
-
       <div class="container has-background-white" id="page-container">
 
         <h2 class="title is-2 has-text-centered">Omgeving</h2>
@@ -38,32 +35,146 @@ const Omgeving = (props) => {
           </div>
         <br />
 
+{/* Boxes with general info */}
 
-
-
-<div class="box">
-  <article class="media">
-    <div class="media-left">
-    
-      <span>
-  <i class="fas fa-camera fa-3x"></i>
-</span>
-
-    </div>
-    <div class="media-content">
-      <div class="content">
-        <p>
-          <strong>Mobiel Netwerk</strong>
-          <br />
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <span>
+                <i class="fas fa-camera fa-3x"></i>
+              </span>
+            </div>
+            <p>
+              <strong>Mobiel Netwerk</strong>
+              <br />
           Goede dekking met uitzondering van sommige plekken in de bergen (o.a. rondom Masca).
         </p>
-      </div>
-    </div>
-  </article>
-</div>
+          </article>
+        </div>
+
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <span>
+                <i class="fas fa-camera fa-3x"></i>
+              </span>
+            </div>
+            <p>
+              <strong>Mobiel Netwerk</strong>
+              <br />
+          Goede dekking met uitzondering van sommige plekken in de bergen (o.a. rondom Masca).
+        </p>
+          </article>
+        </div>
+
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <span>
+                <i class="fas fa-camera fa-3x"></i>
+              </span>
+            </div>
+            <p>
+              <strong>Mobiel Netwerk</strong>
+              <br />
+          Goede dekking met uitzondering van sommige plekken in de bergen (o.a. rondom Masca).
+        </p>
+          </article>
+        </div>
+
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <span>
+                <i class="fas fa-camera fa-3x"></i>
+              </span>
+            </div>
+            <p>
+              <strong>Mobiel Netwerk</strong>
+              <br />
+          Goede dekking met uitzondering van sommige plekken in de bergen (o.a. rondom Masca).
+        </p>
+          </article>
+        </div>
+
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <span>
+                <i class="fas fa-camera fa-3x"></i>
+              </span>
+            </div>
+            <p>
+              <strong>Mobiel Netwerk</strong>
+              <br />
+          Goede dekking met uitzondering van sommige plekken in de bergen (o.a. rondom Masca).
+        </p>
+          </article>
+        </div>
+
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <span>
+                <i class="fas fa-camera fa-3x"></i>
+              </span>
+            </div>
+            <p>
+              <strong>Mobiel Netwerk</strong>
+              <br />
+          Goede dekking met uitzondering van sommige plekken in de bergen (o.a. rondom Masca).
+        </p>
+          </article>
+        </div>
+
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <span>
+                <i class="fas fa-camera fa-3x"></i>
+              </span>
+            </div>
+            <p>
+              <strong>Mobiel Netwerk</strong>
+              <br />
+          Goede dekking met uitzondering van sommige plekken in de bergen (o.a. rondom Masca).
+        </p>
+          </article>
+        </div>
+
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <span>
+                <i class="fas fa-camera fa-3x"></i>
+              </span>
+            </div>
+            <p>
+              <strong>Mobiel Netwerk</strong>
+              <br />
+          Goede dekking met uitzondering van sommige plekken in de bergen (o.a. rondom Masca).
+        </p>
+          </article>
+        </div>
+
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <span>
+                <i class="fas fa-camera fa-3x"></i>
+              </span>
+            </div>
+            <p>
+              <strong>Mobiel Netwerk</strong>
+              <br />
+          Goede dekking met uitzondering van sommige plekken in de bergen (o.a. rondom Masca).
+        </p>
+          </article>
+        </div>
+
+{/* Links to sightseeing activities */}
 
       </div>
-
     </Layout>
 
   );
