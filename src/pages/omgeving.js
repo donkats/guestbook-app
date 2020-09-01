@@ -35,13 +35,120 @@ const Omgeving = (props) => {
           </div>
         <br />
 
-{/* Boxes with general info */}
+        {/* Boxes with general info */}
 
         <div class="box">
           <article class="media">
             <div class="media-left">
-              <span>
-                <i class="fas fa-camera fa-3x"></i>
+              <span class="icon is-large is-center">
+                <i class="fas fa-plane fa-3x"></i>
+              </span>
+            </div>
+
+            <p>
+              <strong>Vliegtijd van/naar Nederland</strong>
+              <br />
+              Ongeveer vier uur en een kwartier tot bijna vijf uur.
+        </p>
+          </article>
+        </div>
+
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <span class="icon is-large is-center">
+                <i class="fas fa-clock fa-3x"></i>
+              </span>
+            </div>
+            <p>
+              <strong>Tijdzone</strong>
+              <br />
+              UTC0; op Tenerife is het altijd één uur vroeger dan in Nederland.
+        </p>
+          </article>
+        </div>
+
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <span class="icon is-large is-center">
+                <i class="fas fa-comment fa-3x"></i>
+              </span>
+            </div>
+            <p>
+              <strong>Taal</strong>
+              <br />
+              Spaans; op toeristische plekken wordt redelijk Engels gesproken.
+        </p>
+          </article>
+        </div>
+
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <span class="icon is-large is-center">
+                <i class="fas fa-euro-sign fa-3x"></i>
+              </span>
+            </div>
+            <p>
+              <strong>Geld</strong>
+              <br />
+              Op Tenerife betaal je net als in Nederland met de euro.
+        </p>
+          </article>
+        </div>
+
+
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <span class="icon is-large is-center">
+                <i class="fas fa-money-bill-alt fa-3x"></i>
+              </span>
+            </div>
+            <p>
+              <strong>Prijsniveau</strong>
+              <br />
+              Gemiddeld liggen de prijzen iets lager dan in Nederland.
+        </p>
+          </article>
+        </div>
+
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <span class="icon is-large is-center">
+                <i class="fas fa-church fa-3x"></i>
+              </span>
+            </div>
+            <p>
+              <strong>Religie</strong>
+              <br />
+              Overwegend rooms-katholiek (ongeveer 90% van de bevolking).
+        </p>
+          </article>
+        </div>
+
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <span class="icon is-large is-center">
+                <i class="fas fa-tint fa-3x"></i>
+              </span>
+            </div>
+            <p>
+              <strong>Drinkwater</strong>
+              <br />
+              het leidingwater is niet geschikt om te drinken (wel om mee te tandenpoetsen).
+        </p>
+          </article>
+        </div>
+
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <span class="icon is-large is-center">
+                <i class="fas fa-mobile-alt fa-3x"></i>
               </span>
             </div>
             <p>
@@ -55,124 +162,76 @@ const Omgeving = (props) => {
         <div class="box">
           <article class="media">
             <div class="media-left">
-              <span>
-                <i class="fas fa-camera fa-3x"></i>
+              <span class="icon is-large is-center">
+                <i class="fas fa-bus-alt fa-3x"></i>
               </span>
             </div>
             <p>
-              <strong>Mobiel Netwerk</strong>
+              <strong>Openbaar vervoer</strong>
               <br />
-          Goede dekking met uitzondering van sommige plekken in de bergen (o.a. rondom Masca).
+              Uitstekende dekking van bussen en in toeristenplaatsen goede beschikbaarheid taxi's.
         </p>
           </article>
         </div>
+        <br/><br/>
 
-        <div class="box">
-          <article class="media">
-            <div class="media-left">
-              <span>
-                <i class="fas fa-camera fa-3x"></i>
-              </span>
-            </div>
-            <p>
-              <strong>Mobiel Netwerk</strong>
-              <br />
-          Goede dekking met uitzondering van sommige plekken in de bergen (o.a. rondom Masca).
-        </p>
-          </article>
-        </div>
 
-        <div class="box">
-          <article class="media">
-            <div class="media-left">
-              <span>
-                <i class="fas fa-camera fa-3x"></i>
-              </span>
-            </div>
-            <p>
-              <strong>Mobiel Netwerk</strong>
-              <br />
-          Goede dekking met uitzondering van sommige plekken in de bergen (o.a. rondom Masca).
-        </p>
-          </article>
-        </div>
+        {/* Links to sightseeing activities */}
 
-        <div class="box">
-          <article class="media">
-            <div class="media-left">
-              <span>
-                <i class="fas fa-camera fa-3x"></i>
-              </span>
-            </div>
-            <p>
-              <strong>Mobiel Netwerk</strong>
-              <br />
-          Goede dekking met uitzondering van sommige plekken in de bergen (o.a. rondom Masca).
-        </p>
-          </article>
-        </div>
+        <div class="container">
+          Hieronder vindt u enkele suggesties om uw verblijf op Tenerife onvergetelijk te maken.
+        </div><br />
 
-        <div class="box">
-          <article class="media">
-            <div class="media-left">
-              <span>
-                <i class="fas fa-camera fa-3x"></i>
-              </span>
-            </div>
-            <p>
-              <strong>Mobiel Netwerk</strong>
-              <br />
-          Goede dekking met uitzondering van sommige plekken in de bergen (o.a. rondom Masca).
-        </p>
-          </article>
-        </div>
+        <div class="container">
+          <strong>Vliegtickets o.a. via:</strong><br />
+        <li>Ryanair, Transavia, Vliegensvlug, Thomas Cook, Easyjet, TUI en Brussels Airlines.</li>
+        </div><br />
 
-        <div class="box">
-          <article class="media">
-            <div class="media-left">
-              <span>
-                <i class="fas fa-camera fa-3x"></i>
-              </span>
-            </div>
-            <p>
-              <strong>Mobiel Netwerk</strong>
-              <br />
-          Goede dekking met uitzondering van sommige plekken in de bergen (o.a. rondom Masca).
-        </p>
-          </article>
-        </div>
+        <div class="container">
+          <strong>Autoverhuur</strong><br />
+            <li>Vanaf het vliegveld via Gigi rent a car.</li>
+            <li>Het is ook mogelijk om een auto te huren bij een bedrijf dicht bij het complex.
+            Wij kunnen eventueel een huurauto voor u reserveren bij boeking,
+          u kunt dan uw auto bij het complex ophalen op de gewenste datum indien beschikbaar.</li>
+          
+        </div><br />
 
-        <div class="box">
-          <article class="media">
-            <div class="media-left">
-              <span>
-                <i class="fas fa-camera fa-3x"></i>
-              </span>
-            </div>
-            <p>
-              <strong>Mobiel Netwerk</strong>
-              <br />
-          Goede dekking met uitzondering van sommige plekken in de bergen (o.a. rondom Masca).
-        </p>
-          </article>
-        </div>
+        <div class="container">
+          <strong>Waterparken</strong><br />
+            <li>Duikpark</li>
+            <li>Waterpark Siam</li>
+        </div><br />
 
-        <div class="box">
-          <article class="media">
-            <div class="media-left">
-              <span>
-                <i class="fas fa-camera fa-3x"></i>
-              </span>
-            </div>
-            <p>
-              <strong>Mobiel Netwerk</strong>
-              <br />
-          Goede dekking met uitzondering van sommige plekken in de bergen (o.a. rondom Masca).
-        </p>
-          </article>
-        </div>
+        <div class="container">
+          <strong>Dieren</strong><br />
+          <li>Loro park</li>
+<li>Junglepark (Recreatiepark Aquilas del Teide)</li>
+<li>Monkeypark</li>
+<li>Camel park</li>
+<li>Dolfijnen en walvissen excursie</li>
+        </div><br />
 
-{/* Links to sightseeing activities */}
+        <div class="container">
+          <strong>Bezienswaardigheden</strong><br />
+          <li>Piramides de Guimar</li>
+          <li>Las Cañadas</li>
+          <li>Masca kloof</li>
+          <li>De Teide</li>
+<li>Wandeltochten</li>
+<li>Wijnmuseum</li>
+        </div><br />
+
+        <div class="container">
+          <strong>Stranden</strong>
+<li>Costa del Silencio</li>
+<li>Playa de Las Americas</li>
+<li>Los Cristianos</li>
+        </div><br />
+
+        <div class="container">
+          <strong>Meer informatie</strong>
+          <li>Goed om te weten</li>
+        </div><br />
 
       </div>
     </Layout>
