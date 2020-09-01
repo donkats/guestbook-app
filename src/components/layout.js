@@ -1,5 +1,5 @@
 import React from 'react';
-import Helmet from './Helmet';
+import Helmet from './helmet';
 import Navbar from './navbar';
 import Footer from './footer';
 import './style.scss';
