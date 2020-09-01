@@ -10,11 +10,12 @@ const Contact = (props) => {
 
       <div class="container has-background-white" id="page-container">
 
-        <h2 class="title is-2 has-text-centered">Appartement</h2>
+        <h2 class="title is-2 has-text-centered">Contact</h2>
         <hr class="hr" />
 
         <div class="container">
-
+          U kunt contact met ons opnemen door onderstaande contactformulier in te vullen. Wij zullen dan zo
+          snel mogelijk reageren.
         </div>
         <br />
         <div class="container">
