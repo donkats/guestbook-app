@@ -10,7 +10,7 @@ const Omgeving = (props) => {
         <h2 class="title is-2 has-text-centered">Omgeving</h2>
         <hr class="hr" />
 
-        <div class="container">
+
           <div class="columns">
             <div class="column">
               <strong>Adres</strong><br />
@@ -24,7 +24,7 @@ const Omgeving = (props) => {
                 style={{ width: '300', height: '200', frameborder: '0', borderRadius: '20px' }} allowfullscreen></iframe>
             </div>
           </div>
-        </div>
+        
         <br />
         <div class="container">
           Het rustige 4-sterrencomplex beschikt over 2 grote buitenzwembaden met gefilterd zeewater,
