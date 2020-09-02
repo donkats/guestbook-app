@@ -89,7 +89,7 @@ export default class SignForm extends React.Component {
                     </label>
                 </div>
                 <div className="buttons">
-                    <button className="button is-primary" type="submit">Sign the Guestbook</button>
+                    <button className="button is-primary" type="submit">Verstuur reactie</button>
                 </div>
             </form>
         )

@@ -12,7 +12,7 @@ const Signatures = (props) => {
     }
 
     return (
-        <div className="test"><SignatureMarkup></SignatureMarkup></div>
+        <div className="reactions"><SignatureMarkup></SignatureMarkup></div>
     )
 }
 
