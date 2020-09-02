@@ -1,7 +1,8 @@
 import React from 'react';
-import Signature from './signature'   
+import Signature from './signature'
 
 const Signatures = (props) => {
+
     const SignatureMarkup = () => {
         return props.sigData.map((signature, index) => {
             return (
@@ -11,8 +12,8 @@ const Signatures = (props) => {
     }
 
     return (
-        <SignatureMarkup></SignatureMarkup>
+        <div className="test"><SignatureMarkup></SignatureMarkup></div>
     )
 }
 
-export default Signatures
+export default Signatures;

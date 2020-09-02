@@ -4,6 +4,7 @@ import photoArrow from '../assets/rocasfotoapp.jpg';
 import '../components/style.scss';
 
 const Appartement = (props) => {
+
   return (
     <Layout>
       <div class="container has-background-white" id="page-container">
@@ -44,8 +45,9 @@ const Appartement = (props) => {
           kunt uw favoriete televisiezender volgen via canal-digitaal (NL) of TV Vlaanderen (BE).
           Er zijn 2 zwembadkaarten voor de ligbedden en parasols aan het zwembad.
         </div>
+
         <figure id="photo-arrow" class="image is-4by3">
-          <img src={photoArrow} />
+          <img src={photoArrow} alt="" />
         </figure>
 
       </div>

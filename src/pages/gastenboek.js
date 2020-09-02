@@ -30,18 +30,20 @@ const Gastenboek = () => {
         <hr class="hr" />
 
         <div class="container">
-          Ons appartement is gelegen aan de oceaanzijde van het complex op de 1e verdieping en is
-          bereikbaar via een trap aan de voorzijde.
+          Wij zouden het leuk vinden als u een bericht achterlaat in ons gastenboek als u in ons appartement
+          heeft verbleven. Wij hopen dat u een prettig verblijf heeft gehad en hopen u in de toekomst
+          nogmaals te mogen ontvangen.
           </div>
         <br />
+
         <div className="container container--small">
           <section className="section is-small">
-            <h2 className="title is-4">Sign here</h2>
+            <h2 className="title is-4">Schrijf in ons gastenboek</h2>
             <SignForm setSigData={setSigData}></SignForm>
           </section>
 
           <section className="section">
-            <h2 className="title is-5">View Signatures</h2>
+            <h2 className="title is-5">Berichten van onze bezoekers</h2>
             <Signatures sigData={sigData}></Signatures>
           </section>
         </div>

@@ -64,7 +64,7 @@ export default class SignForm extends React.Component {
             <form onSubmit={this.handleSubmit}>
                 <div className="field">
                     <div className="control">
-                 <label className="label">Label
+                 <label className="label">Naam:
                     <input 
                         className="input is-fullwidth"
                         name="sigName" 
@@ -76,15 +76,15 @@ export default class SignForm extends React.Component {
                     </div>
                 </div>
                 <div className="field">
-                    <label>
-                        Your Message:
+                    <label className="label">
+                        Bericht:
                         <textarea 
                             rows="5"
                             name="sigMessage" 
                             value={this.state.sigMessage}
                             onChange={this.handleInputChange} 
                             className="textarea" 
-                            placeholder="Leave us a happy note"></textarea>
+                            placeholder="Typ hier uw bericht"></textarea>
 
                     </label>
                 </div>
