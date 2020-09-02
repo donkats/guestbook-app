@@ -44,8 +44,8 @@ const Appartement = (props) => {
           kunt uw favoriete televisiezender volgen via canal-digitaal (NL) of TV Vlaanderen (BE).
           Er zijn 2 zwembadkaarten voor de ligbedden en parasols aan het zwembad.
         </div>
-        <figure class="image is-4by3">
-          <img id="photo-arrow" src={photoArrow} />
+        <figure id="photo-arrow" class="image is-4by3">
+          <img src={photoArrow} />
         </figure>
 
       </div>
