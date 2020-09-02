@@ -33,7 +33,7 @@ const Omgeving = (props) => {
           appartement aanwezig zijn, en zo ook van de beschikbare ligbedden en parasols. Direct naast het
           zwembad bevindt zich een klein café voor hapjes en drankjes, genaamd “De Puntmuts”.
           </div>
-        <br />
+        <br /><br />
 
         {/* Boxes with general info */}
 
@@ -173,64 +173,75 @@ const Omgeving = (props) => {
         </p>
           </article>
         </div>
-        <br/><br/>
+        <br /><br />
 
 
         {/* Links to sightseeing activities */}
 
         <div class="container">
-          Hieronder vindt u enkele suggesties om uw verblijf op Tenerife onvergetelijk te maken.
+          <h5 class="title is-5">Hieronder vindt u enkele suggesties om uw verblijf op Tenerife onvergetelijk te maken.</h5>
         </div><br />
 
         <div class="container">
           <strong>Vliegtickets o.a. via:</strong><br />
-        <li>Ryanair, Transavia, Vliegensvlug, Thomas Cook, Easyjet, TUI en Brussels Airlines.</li>
+          <li>
+            <a href="https://www.ryanair.com/nl/nl" target="_blank">Ryanair</a>,
+            <a href="https://www.transavia.com/" target="_blank"> Transavia</a>,
+            <a href="http://www.vliegensvlug.be/" target="_blank"> Vliegensvlug</a>,
+            <a href="https://www.thomascook.com/nl-be" target="_blank"> Thomas Cook</a>,
+            <a href="https://www.easyjet.com/nl" target="_blank"> Easyjet</a>,
+            <a href="https://www.tui.nl/vliegtickets/" target="_blank"> TUI </a>en
+            <a href="https://www.brusselsairlines.com/nl-nl/" target="_blank"> Brussels Airlines</a>.
+          </li>
         </div><br />
 
         <div class="container">
           <strong>Autoverhuur</strong><br />
-            <li>Vanaf het vliegveld via Gigi rent a car.</li>
-            <li>Het is ook mogelijk om een auto te huren bij een bedrijf dicht bij het complex.
-            Wij kunnen eventueel een huurauto voor u reserveren bij boeking,
+          <li>Vanaf het vliegveld via <a href="https://www.rentacar-gigi.com/nl" target="_blank">Gigi rent a car</a>.</li>
+          <li>Het is ook mogelijk om een auto te huren bij een bedrijf dicht bij het complex.
+          Wij kunnen eventueel een huurauto voor u reserveren bij boeking,
           u kunt dan uw auto bij het complex ophalen op de gewenste datum indien beschikbaar.</li>
-          
+
         </div><br />
 
         <div class="container">
           <strong>Waterparken</strong><br />
-            <li>Duikpark</li>
-            <li>Waterpark Siam</li>
+          <li><a href="http://www.coralsub.com/fr/home" target="_blank">Duikpark</a></li>
+          <li><a href="https://www.siampark.net/index.php/en/" target="_blank">Waterpark Siam</a></li>
         </div><br />
 
         <div class="container">
           <strong>Dieren</strong><br />
-          <li>Loro park</li>
-<li>Junglepark (Recreatiepark Aquilas del Teide)</li>
-<li>Monkeypark</li>
-<li>Camel park</li>
-<li>Dolfijnen en walvissen excursie</li>
+          <li><a href="https://www.loroparque.com/index.php/en/" target="_blank">Loro park</a></li>
+          <li><a href="https://www.junglepark.es/" target="_blank">Junglepark (Recreatiepark Aquilas del Teide)</a></li>
+          <li><a href="http://monkeypark.com/" target="_blank">Monkeypark</a></li>
+          <li><a href="https://camelpark.es/?lang=en" target="_blank">Camel park</a></li>
+          <li><a href="https://www.droomplekken.nl/spanje/zie-de-walvissen-en-dolfijnen-van-
+            tenerife/" target="_blank">Dolfijnen en walvissen excursie</a></li>
         </div><br />
+
+
 
         <div class="container">
           <strong>Bezienswaardigheden</strong><br />
-          <li>Piramides de Guimar</li>
-          <li>Las Cañadas</li>
-          <li>Masca kloof</li>
-          <li>De Teide</li>
-<li>Wandeltochten</li>
-<li>Wijnmuseum</li>
+          <li><a href="https://www.droomplekken.nl/spanje/tenerife/" target="_blank">Piramides de Guimar</a></li>
+          <li><a href="https://dier-en-natuur.infonu.nl/natuur/20977-las-canadas-tenerife.html" target="_blank">Las Cañadas</a></li>
+          <li><a href="https://www.wandelvrouw.nl/de-masca-kloof-op-tenerife/" target="_blank">Masca kloof</a></li>
+          <li><a href="http://www.tenerife-reisgids.be/tenerife-teide-vulkaan.php" target="_blank">De Teide</a></li>
+          <li><a href="http://www.tenerife-reisgids.be/tenerife-wandelen.php" target="_blank">Wandeltochten</a></li>
+          <li><a href="http://www.tenerife-reisgids.be/tenerife-casa-del-vino.php" target="_blank">Wijnmuseum</a></li>
         </div><br />
 
         <div class="container">
           <strong>Stranden</strong>
-<li>Costa del Silencio</li>
-<li>Playa de Las Americas</li>
-<li>Los Cristianos</li>
+          <li><a href="http://www.tenerife-reisgids.be/tenerife-costa-del-silencio.php" target="_blank">Costa del Silencio</a></li>
+          <li><a href="http://www.allesovertenerife.nl/playa-de-las-americas.htm" target="_blank">Playa de Las Americas</a></li>
+          <li><a href="http://www.allesovertenerife.nl/los-cristianos.htm" target="_blank">Los Cristianos</a></li>
         </div><br />
 
         <div class="container">
           <strong>Meer informatie</strong>
-          <li>Goed om te weten</li>
+          <li><a href="http://www.tenerife-reisgids.be/tenerife-tips.php" target="_blank">Goed om te weten</a></li>
         </div><br />
 
       </div>

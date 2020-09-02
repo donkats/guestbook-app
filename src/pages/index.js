@@ -11,8 +11,8 @@ const Home = (props) => {
         <hr class="hr" />
 
         <div class="container">
-          Wij beschikken over een prachtig appartement op Tenerife. Wij willen dit graag met u delen!
-          </div>
+          Wij beschikken over een prachtig appartement op Tenerife en wij willen dit graag met u delen!
+        </div>
         <br />
         <div class="container">
           Het appartement ligt in het viersterrencomplex Rocas del Mar, in het zuidelijkste puntje van Tenerife in
@@ -44,10 +44,7 @@ const Home = (props) => {
           Met vriendelijke groet,<br />
           Xander de Graaf en Caro Landwaart
           </div>
-        <br />
-
       </div>
-
     </Layout>
 
   );
