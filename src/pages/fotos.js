@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import Album from './Album';
+import Album from './album';
 import '../components/style.scss';
 
 const Fotos = (props) => {
