@@ -30,11 +30,12 @@ function Navbar() {
 
               <div id="navbar-rocas" className={`navbar-menu ${isActive ? "is-active" : ""}`}
               >
-                <div className="navbar-end">
+                <div className="navbar-start">
                   <Link className="navbar-item" to="/">
                     Home
     </Link>
-
+                </div>
+                <div className="navbar-end">
                   <Link className="navbar-item" to="/overons">
                     Over Ons
     </Link>
