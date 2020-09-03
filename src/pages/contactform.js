@@ -7,23 +7,57 @@ const ContactForm = (props) => {
       <input type="hidden" name="bot-field" />
       <input type="hidden" name="form-name" value="contact" />
 
-      <p>
-        <label class="label">Naam:<br/><input type="text" name="name" /></label>
-      </p>
-      <p>
-        <label class="label">Emailadres:<br/>
-        <input type="email" name="email" /></label>
-      </p>
+      <div className="field">
+        <div className="control">
+          <label className="label">Naam
+                    <input
+              className="input is-fullwidth"
+              name="naam"
+              type="text"
+              required
+            />
+          </label>
+        </div>
+      </div>
 
-      <p>
-        <label class="label">Onderwerp:<br/>
-        <textarea name="subject"></textarea></label>
-      </p>
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control">
+          <input
+            className="input is-fullwidth"
+            type="email"
+            name="email"
+            data-validate="require"
+            required
+          />
+        </div>
+      </div>
 
-      <p>
-        <label class="label">Bericht:<br/>
-        <textarea name="message"></textarea></label>
-      </p>
+      <div className="field">
+        <div className="control">
+          <label className="label">Onderwerp
+                    <input
+              className="input is-fullwidth"
+              name="onderwerp"
+              type="text"
+            />
+          </label>
+        </div>
+      </div>
+
+      <div className="field">
+        <div className="control">
+          <label className="label">Bericht
+                    <textarea
+              className="textarea is-fullwidth"
+              rows="5"
+              name="bericht"
+              placeholder="Typ hier uw bericht"
+            />
+          </label>
+        </div>
+      </div>
+
       <p>
         <button type="submit">Verzenden</button>
       </p>

@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
+import { Link } from 'gatsby';
 import '../components/style.scss';
 
 const Home = (props) => {
@@ -35,7 +36,7 @@ const Home = (props) => {
           </div>
         <br />
         <div class="container">
-          Kijkt u rustig rond op onze website en mocht u vragen hebben, neem dan gerust contact met ons op.
+          Kijkt u rustig rond op onze website en mocht u vragen hebben, neem dan gerust <Link to="/contact"><u>contact</u></Link> met ons op.
           Uiteraard vinden wij het leuk als u onze website deelt of een reactie achter laat in ons gastenboek.
           Wij hopen u te mogen verwelkomen in ons paradijsje op het eiland van de eeuwige lente!
           </div>

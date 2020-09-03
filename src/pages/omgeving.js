@@ -7,14 +7,14 @@ const Omgeving = (props) => {
     <Layout>
       <div class="container has-background-white" id="page-container">
 
-        <h2 class="title is-2 has-text-centered">Omgeving</h2>
+        <h2 class="title is-2 has-text-centered">Informatie complex & omgeving</h2>
         <hr class="hr" />
 
 
         <div class="columns">
           <div class="column">
             <strong>Adres</strong><br />
-            Complex Rocas de Mar ****<br />
+            Complex Rocas de Mar <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><br />
             Calle de Zeus 6, appartement 102<br />
             38630 Costa del Silencio<br />
             Tenerife
