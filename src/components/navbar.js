@@ -63,6 +63,10 @@ function Navbar() {
                   <Link className="navbar-item" to="/contact">
                     Contact
     </Link>
+
+    <Link className="navbar-item" to="/lettertypetest">
+                    Test
+    </Link>
                 </div>
               </div>
 

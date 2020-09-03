@@ -4,6 +4,10 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Alice&family=Fira+Sans+Condensed&family=Inconsolata&family=Kufam&family=Merriweather+Sans&family=Overpass&family=PT+Serif&family=Sawarabi+Mincho&family=Syne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manuale&family=Mukta+Mahee&family=Puritan&display=swap');
+
 body {
     background-image: url("../assets/background-wide.jpg");
     font-family: 'Roboto', sans-serif;
@@ -69,6 +73,46 @@ nav {
 
 .reactions{
     white-space: pre-line;
+}
+
+.test1 {
+    font-family: 'Manuale', serif;
+}
+
+.test2 {
+    font-family: 'Alice', serif;
+}
+
+.test3 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.test4 {
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+.test5 {
+    font-family: 'Kufam', cursive;
+}
+
+.test6 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.test7 {
+    font-family: 'Overpass', sans-serif;
+}
+
+.test8 {
+    font-family: 'PT Serif', serif;
+}
+
+.test9 {
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.test10 {
+    font-family: 'Puritan', sans-serif;
 }
 
   @import '~bulma/bulma.sass';
