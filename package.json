@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-bulma-quickstart",
-  "description": "A Project to bootstrap your next Gatsby + Bulma site.",
+  "name": "rocas-tenerife",
+  "description": "A website for appartment rental in Tenerife.",
   "version": "1.10.3",
-  "author": "Aman Mittal <amandeepmittal@live.com>",
+  "author": "Don Kats",
   "dependencies": {
     "bulma": "^0.9.0",
     "gatsby": "^2.24.2",
@@ -45,6 +45,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/amandeepmittal/gatsby-bulma-quickstart"
+    "url": "https://github.com/donkats/guestbook-app"
   }
 }

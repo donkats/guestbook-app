@@ -1,6 +1,5 @@
 import React from "react";
 import ImageGallery from 'react-image-gallery';
-import Layout from "../components/layout";
 import '../components/style.scss';
 
 const Fotos = (props) => {

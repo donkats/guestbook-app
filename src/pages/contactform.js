@@ -8,18 +8,21 @@ const ContactForm = (props) => {
       <input type="hidden" name="form-name" value="contact" />
 
       <p>
-        <label>Naam: <input type="text" name="name" /></label>
+        <label class="label">Naam:<br/><input type="text" name="name" /></label>
       </p>
       <p>
-        <label>Emailadres: <input type="email" name="email" /></label>
-      </p>
-
-      <p>
-        <label>Onderwerp: <textarea name="subject"></textarea></label>
+        <label class="label">Emailadres:<br/>
+        <input type="email" name="email" /></label>
       </p>
 
       <p>
-        <label>Bericht: <textarea name="message"></textarea></label>
+        <label class="label">Onderwerp:<br/>
+        <textarea name="subject"></textarea></label>
+      </p>
+
+      <p>
+        <label class="label">Bericht:<br/>
+        <textarea name="message"></textarea></label>
       </p>
       <p>
         <button type="submit">Verzenden</button>
