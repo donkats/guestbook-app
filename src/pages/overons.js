@@ -1,5 +1,7 @@
 import React from "react";
 import Layout from "../components/layout";
+import caroxander1 from '../assets/caroxander1.jpg';
+import caroxander2 from '../assets/caroxander2.jpg';
 import '../components/style.scss';
 
 const OverOns = (props) => {
@@ -39,6 +41,17 @@ const OverOns = (props) => {
           Xander de Graaf en Caro Landwaart
           </div>
 
+        <br />
+        <br />
+
+        <div class="columns is-mobile is-centered">
+          <div class="column" id="caro-xander-1">
+            <img src={caroxander1} alt="" />
+          </div>
+          <div class="column" id="caro-xander-2">
+            <img src={caroxander2} alt="" />
+          </div>
+        </div>
       </div>
 
     </Layout>

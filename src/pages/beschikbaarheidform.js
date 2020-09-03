@@ -119,7 +119,7 @@ const BeschikbaarheidForm = (props) => {
               className="textarea is-fullwidth"
               rows="5"
               name="vraag over beschikbaarheid"
-              placeholder="Typ hier uw bericht"
+              placeholder="Hier kunt u ons laten weten voor welke periode u graag zou willen boeken, natuurlijk kunt u ook overige vragen en opmerkingen hier kwijt."
               required
             />
           </label>

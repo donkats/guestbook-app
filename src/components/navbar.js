@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <div>
-    <section class="hero is-primary is-medium">
+      <section class="hero is-link is-medium">
         <div class="hero-head">
           <header class="navbar">
             <nav className="navbar" role="navigation" aria-label="main navigation">
@@ -28,9 +28,9 @@ function Navbar() {
                 </button>
               </div>
 
-              <div id="navbarBasicExample" className={`navbar-menu ${isActive ? "is-active" : ""}`}
+              <div id="navbar-rocas" className={`navbar-menu ${isActive ? "is-active" : ""}`}
               >
-                <div className="navbar-start">
+                <div className="navbar-end">
                   <Link className="navbar-item" to="/">
                     Home
     </Link>
@@ -47,15 +47,13 @@ function Navbar() {
                     Omgeving
     </Link>
 
-    <Link className="navbar-item" to="/beschikbaarheid">
+                  <Link className="navbar-item" to="/beschikbaarheid">
                     Beschikbaarheid
     </Link>
 
                   <Link className="navbar-item" to="/fotos">
                     Foto's
     </Link>
-
-                  <hr className="navbar-divider" />
 
                   <Link className="navbar-item" to="/gastenboek">
                     Gastenboek
