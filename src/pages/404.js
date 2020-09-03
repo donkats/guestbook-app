@@ -1,10 +1,19 @@
-import React from 'react'
-import Layout from '../components/layout'
+import React from 'react';
+import { Link } from 'gatsby';
+import Layout from '../components/layout';
 
 const NotFoundPage = () => (
   <Layout>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <div class="container has-background-white" id="page-container">
+
+      <h2 class="title is-2 has-text-centered">Helaas!</h2>
+      <hr class="hr" />
+
+      <div class="container">
+        Deze pagina bestaat niet. De door u opgevraagde pagina kon niet gevonden worden. Keer terug naar
+      <Link to="/">Home</Link>
+      </div>
+    </div>
   </Layout>
 )
 
