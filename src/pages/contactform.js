@@ -40,6 +40,7 @@ const ContactForm = (props) => {
               className="input is-fullwidth"
               name="onderwerp"
               type="text"
+              required
             />
           </label>
         </div>
@@ -53,6 +54,7 @@ const ContactForm = (props) => {
               rows="5"
               name="bericht"
               placeholder="Typ hier uw bericht"
+              required
             />
           </label>
         </div>

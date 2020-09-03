@@ -71,6 +71,7 @@ export default class SignForm extends React.Component {
                         type="text"
                         value={this.state.sigName}
                         onChange={this.handleInputChange}
+                        required
                     />
                     </label>
                     </div>
@@ -84,10 +85,11 @@ export default class SignForm extends React.Component {
                             value={this.state.sigMessage}
                             onChange={this.handleInputChange} 
                             className="textarea" 
-                            placeholder="Typ hier uw bericht" />
+                            placeholder="Typ hier uw bericht"
+                            required />
                     </label>
                 </div>
-                
+
                 <div className="buttons">
                     <button className="button is-primary" type="submit">Verstuur reactie</button>
                 </div>
