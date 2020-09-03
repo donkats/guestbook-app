@@ -14,6 +14,11 @@ body {
     background-color: blue;
 }
 
+#footer {
+    max-height: 10px;
+    opacity: 1%;
+}
+
 .hr {
     background-color: blue;
 }
@@ -45,6 +50,10 @@ body {
     margin-right: 5%;
     margin-top: 5%;
     margin-bottom: 3%;
+}
+
+#input-margin {
+    margin-right: 2%;
 }
 
 .reactions{

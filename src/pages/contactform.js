@@ -9,7 +9,7 @@ const ContactForm = (props) => {
 
       <div className="field">
         <div className="control">
-          <label className="label">Naam
+          <label className="label">Naam:
                     <input
               className="input is-fullwidth"
               name="naam"
@@ -21,21 +21,22 @@ const ContactForm = (props) => {
       </div>
 
       <div class="field">
-        <label class="label">Email</label>
-        <div class="control">
+        <div className="control">
+          <label className="label">Emailadres:
           <input
-            className="input is-fullwidth"
-            type="email"
-            name="email"
-            data-validate="require"
-            required
-          />
+              className="input is-fullwidth"
+              type="email"
+              name="email"
+              data-validate="require"
+              required
+            />
+          </label>
         </div>
       </div>
 
       <div className="field">
         <div className="control">
-          <label className="label">Onderwerp
+          <label className="label">Onderwerp:
                     <input
               className="input is-fullwidth"
               name="onderwerp"
@@ -48,7 +49,7 @@ const ContactForm = (props) => {
 
       <div className="field">
         <div className="control">
-          <label className="label">Bericht
+          <label className="label">Bericht:
                     <textarea
               className="textarea is-fullwidth"
               rows="5"
@@ -60,12 +61,12 @@ const ContactForm = (props) => {
         </div>
       </div>
 
-      <p>
-        <button type="submit">Verzenden</button>
-      </p>
+      <div className="buttons">
+        <button className="button is-primary" type="submit">Verzenden</button>
+      </div>
     </form>
+
   )
 }
-
 
 export default ContactForm;

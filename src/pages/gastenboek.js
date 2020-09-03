@@ -36,16 +36,17 @@ const Gastenboek = () => {
           </div>
         <br />
 
-        <div className="container container--small">
-          <section className="section is-small">
-            <h2 className="title is-4">Schrijf in ons gastenboek</h2>
+        <div class="container">
+            <h2 className="title is-5">Schrijf in ons gastenboek</h2>
             <SignForm setSigData={setSigData}></SignForm>
-          </section>
+        </div>
 
-          <section className="section">
+        <br />
+        <br />
+
+        <div class="container">
             <h2 className="title is-5">Berichten van onze bezoekers</h2>
             <Signatures sigData={sigData}></Signatures>
-          </section>
         </div>
 
       </div>

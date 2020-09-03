@@ -17,8 +17,6 @@ const OverOns = (props) => {
           kunnen ontspannen en uit te rusten gingen wij regelmatig naar Tenerife. Een eiland met een
           natuurlijke ontspannenheid en vrijwel altijd lekker, zonnig weer. Al snel werden wij “verliefd” op het
           eiland, de mensen en het heerlijke eten en drinken.
-
-
           </div>
         <br />
         <div class="container">

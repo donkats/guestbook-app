@@ -31,7 +31,7 @@ const Omgeving = (props) => {
           waarvan 1 ‘s winters verwarmd is. Een kinderbadje met zoet water en een groot zonneterras. Al
           onze gasten kunnen hier gebruik van maken met een zwembadkaart, waarvan er 2 in het
           appartement aanwezig zijn, en zo ook van de beschikbare ligbedden en parasols. Direct naast het
-          zwembad bevindt zich een klein café voor hapjes en drankjes, genaamd “De Puntmuts”.
+          zwembad bevindt zich een klein café voor hapjes en drankjes, genaamd “La Cabaña”.
           </div>
         <br /><br />
 
@@ -186,53 +186,55 @@ const Omgeving = (props) => {
           <strong>Vliegtickets o.a. via:</strong><br />
           <li>
             <a href="https://www.ryanair.com/nl/nl" target="_blank" rel="noopener noreferrer"
->Ryanair</a>,
+            >Ryanair</a>,
             <a href="https://www.transavia.com/" target="_blank" rel="noopener noreferrer"
-> Transavia</a>,
+            > Transavia</a>,
             <a href="http://www.vliegensvlug.be/" target="_blank" rel="noopener noreferrer"
-> Vliegensvlug</a>,
+            > Vliegensvlug</a>,
             <a href="https://www.thomascook.com/nl-be" target="_blank" rel="noopener noreferrer"
-> Thomas Cook</a>,
+            > Thomas Cook</a>,
             <a href="https://www.easyjet.com/nl" target="_blank" rel="noopener noreferrer"
-> Easyjet</a>,
+            > Easyjet</a>,
             <a href="https://www.tui.nl/vliegtickets/" target="_blank" rel="noopener noreferrer"
-> TUI </a>en
+            > TUI </a>en
             <a href="https://www.brusselsairlines.com/nl-nl/" target="_blank" rel="noopener noreferrer"
-> Brussels Airlines</a>.
+            > Brussels Airlines</a>.
           </li>
         </div><br />
 
         <div class="container">
           <strong>Autoverhuur</strong><br />
-          <li>Vanaf het vliegveld via <a href="https://www.rentacar-gigi.com/nl" target="_blank" rel="noopener noreferrer"
->Gigi rent a car</a>.</li>
-          <li>Het is ook mogelijk om een auto te huren bij een bedrijf dicht bij het complex.
-          Wij kunnen eventueel een huurauto voor u reserveren bij boeking,
-          u kunt dan uw auto bij het complex ophalen op de gewenste datum indien beschikbaar.</li>
+          <li><a href="https://www.autoreisen.es" target="_blank" rel="noopener noreferrer"
+          >Vanaf de luchthaven</a>.</li>
+          <li>Het is ook mogelijk om een auto te huren bij een bedrijf dicht bij het complex bij
+            <a href="https://www.rentacar-gigi.com/nl" target="_blank" rel="noopener noreferrer"
+            > Gigi rent a car</a>.
+            Wij kunnen eventueel een huurauto voor u reserveren bij boeking,
+            u kunt dan uw auto bij het complex ophalen op de gewenste datum indien beschikbaar.</li>
 
         </div><br />
 
         <div class="container">
           <strong>Waterparken</strong><br />
           <li><a href="http://www.coralsub.com/fr/home" target="_blank" rel="noopener noreferrer"
->Duikpark</a></li>
+          >Duikpark</a></li>
           <li><a href="https://www.siampark.net/index.php/en/" target="_blank" rel="noopener noreferrer"
->Waterpark Siam</a></li>
+          >Waterpark Siam</a></li>
         </div><br />
 
         <div class="container">
           <strong>Dieren</strong><br />
           <li><a href="https://www.loroparque.com/index.php/en/" target="_blank" rel="noopener noreferrer"
->Loro park</a></li>
+          >Loro park</a></li>
           <li><a href="https://www.junglepark.es/" target="_blank" rel="noopener noreferrer"
->Junglepark (Recreatiepark Aquilas del Teide)</a></li>
+          >Junglepark (Recreatiepark Aquilas del Teide)</a></li>
           <li><a href="http://monkeypark.com/" target="_blank" rel="noopener noreferrer"
->Monkeypark</a></li>
+          >Monkeypark</a></li>
           <li><a href="https://camelpark.es/?lang=en" target="_blank" rel="noopener noreferrer"
->Camel park</a></li>
+          >Camel park</a></li>
           <li><a href="https://www.droomplekken.nl/spanje/zie-de-walvissen-en-dolfijnen-van-
             tenerife/" target="_blank" rel="noopener noreferrer"
-            >Dolfijnen en walvissen excursie</a></li>
+          >Dolfijnen en walvissen excursie</a></li>
         </div><br />
 
 
@@ -240,33 +242,33 @@ const Omgeving = (props) => {
         <div class="container">
           <strong>Bezienswaardigheden</strong><br />
           <li><a href="https://www.droomplekken.nl/spanje/tenerife/" target="_blank" rel="noopener noreferrer"
->Piramides de Guimar</a></li>
+          >Piramides de Guimar</a></li>
           <li><a href="https://dier-en-natuur.infonu.nl/natuur/20977-las-canadas-tenerife.html" target="_blank" rel="noopener noreferrer"
->Las Cañadas</a></li>
+          >Las Cañadas</a></li>
           <li><a href="https://www.wandelvrouw.nl/de-masca-kloof-op-tenerife/" target="_blank" rel="noopener noreferrer"
->Masca kloof</a></li>
+          >Masca kloof</a></li>
           <li><a href="http://www.tenerife-reisgids.be/tenerife-teide-vulkaan.php" target="_blank" rel="noopener noreferrer"
->De Teide</a></li>
+          >De Teide</a></li>
           <li><a href="http://www.tenerife-reisgids.be/tenerife-wandelen.php" target="_blank" rel="noopener noreferrer"
->Wandeltochten</a></li>
+          >Wandeltochten</a></li>
           <li><a href="http://www.tenerife-reisgids.be/tenerife-casa-del-vino.php" target="_blank" rel="noopener noreferrer"
->Wijnmuseum</a></li>
+          >Wijnmuseum</a></li>
         </div><br />
 
         <div class="container">
           <strong>Stranden</strong>
           <li><a href="http://www.tenerife-reisgids.be/tenerife-costa-del-silencio.php" target="_blank" rel="noopener noreferrer"
->Costa del Silencio</a></li>
+          >Costa del Silencio</a></li>
           <li><a href="http://www.allesovertenerife.nl/playa-de-las-americas.htm" target="_blank" rel="noopener noreferrer"
->Playa de Las Americas</a></li>
+          >Playa de Las Americas</a></li>
           <li><a href="http://www.allesovertenerife.nl/los-cristianos.htm" target="_blank" rel="noopener noreferrer"
->Los Cristianos</a></li>
+          >Los Cristianos</a></li>
         </div><br />
 
         <div class="container">
           <strong>Meer informatie</strong>
           <li><a href="http://www.tenerife-reisgids.be/tenerife-tips.php" target="_blank" rel="noopener noreferrer"
->Goed om te weten</a></li>
+          >Goed om te weten</a></li>
         </div><br />
       </div>
     </Layout>

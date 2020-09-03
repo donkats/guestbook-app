@@ -47,6 +47,10 @@ function Navbar() {
                     Omgeving
     </Link>
 
+    <Link className="navbar-item" to="/beschikbaarheid">
+                    Beschikbaarheid
+    </Link>
+
                   <Link className="navbar-item" to="/fotos">
                     Foto's
     </Link>
