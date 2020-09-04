@@ -1,78 +1,38 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import './style.scss';
 
-function Navbar() {
-
-  const [isActive, setisActive] = React.useState(false);
+const Navbar = (props) => {
+  function toggleBurgerMenu() {
+    document.querySelector('.navbar-menu').classList.toggle('is-active');
+  }
 
   return (
-    <div>
-      <section class="hero is-link is-medium">
-        <div class="hero-head">
-          <header class="navbar">
-            <nav className="navbar" role="navigation" aria-label="main navigation">
-              <div className="navbar-brand">
-                <button
-                  onClick={() => {
-                    setisActive(!isActive);
-                  }}
-                  className={`navbar-burger burger ${isActive ? "is-active" : ""}`}
-                  aria-label="menu"
-                  aria-expanded="false"
-                  data-target="navbar-rocas"
-                >
-                  <span aria-hidden="true"></span>
-                  <span aria-hidden="true"></span>
-                  <span aria-hidden="true"></span>
-                </button>
-              </div>
+    <nav className="navbar is-link is-medium" role="navigation" aria-label="main navigation">
+      <div className="navbar-brand">
+        <Link to="/" className="navbar-item">Home</Link>
 
-              <div id="navbar-rocas" className={`navbar-menu ${isActive ? "is-active" : ""}`}
-              >
-                <div className="navbar-start">
-                  <Link className="navbar-item" to="/">
-                    Home
-    </Link>
-                </div>
-                <div className="navbar-end">
-                  <Link className="navbar-item" to="/overons">
-                    Over Ons
-    </Link>
+        <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic"
+          onClick={toggleBurgerMenu}>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
 
-                  <Link className="navbar-item" to="/appartement">
-                    Appartement
-    </Link>
-
-                  <Link className="navbar-item" to="/omgeving">
-                    Omgeving
-    </Link>
-
-                  <Link className="navbar-item" to="/beschikbaarheid">
-                    Beschikbaarheid
-    </Link>
-
-                  <Link className="navbar-item" to="/fotos">
-                    Foto's
-    </Link>
-
-                  <Link className="navbar-item" to="/gastenboek">
-                    Gastenboek
-    </Link>
-
-                  <Link className="navbar-item" to="/contact">
-                    Contact
-    </Link>
-                </div>
-              </div>
-
-            </nav>
-          </header>
+      <div id="navbarBasic" className="navbar-menu">
+        <div className="navbar-end">
+        <Link to="/overons" className="navbar-item" onClick={toggleBurgerMenu}>Over ons</Link>
+        <Link to="/appartement" className="navbar-item" onClick={toggleBurgerMenu}>Appartement</Link>
+        <Link to="/omgeving" className="navbar-item" onClick={toggleBurgerMenu}>Omgeving</Link>
+        <Link to="/beschikbaarheid" className="navbar-item" onClick={toggleBurgerMenu}>Beschikbaarheid</Link>
+          <Link to="/fotos" className="navbar-item" onClick={toggleBurgerMenu}>Foto's</Link>
+          <Link to="/gastenboek" className="navbar-item" onClick={toggleBurgerMenu}>Gastenboek</Link>
+          <Link to="/contact" className="navbar-item" onClick={toggleBurgerMenu}>Contact</Link>
         </div>
-
-      </section>
-    </div>
-  )
+      </div>
+    </nav>
+  );
 }
 
 export default Navbar;
+
