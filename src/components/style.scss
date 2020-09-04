@@ -3,14 +3,13 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Alice&family=Fira+Sans+Condensed&family=Inconsolata&family=Kufam&family=Merriweather+Sans&family=Overpass&family=PT+Serif&family=Sawarabi+Mincho&family=Syne&display=swap');
 
-body {
-    background-image: url("../assets/background-wide.jpg");
-    font-family: 'Merriweather Sans', sans-serif;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: blue;
+
+html { 
+  background: url("../assets/background-wide.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 nav {
