@@ -12,12 +12,12 @@ const Navbar = (props) => {
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">Home</Link>
 
-        <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic"
+        <button className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic"
           onClick={toggleBurgerMenu}>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
-        </a>
+        </button>
       </div>
 
       <div id="navbarBasic" className="navbar-menu">
