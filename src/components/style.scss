@@ -2,9 +2,6 @@
 
 @import './variables.scss';
 @import "~react-image-gallery/styles/css/image-gallery.css";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Alice&family=Fira+Sans+Condensed&family=Inconsolata&family=Kufam&family=Merriweather+Sans&family=Overpass&family=PT+Serif&family=Sawarabi+Mincho&family=Syne&display=swap');
 
 
@@ -17,16 +14,6 @@ body {
     background-size: cover;
     background-color: blue;
 }
-
-// nav {
-//     font-size: large;
-//     font-family: 'Roboto', sans-serif;
-//     display: flex;
-//     width: 100%;
-//     justify-content: space-between;
-//     padding-right: 3%;
-//     padding-left: 3%;
-//   }
 
 #footer {
     max-height: 10px;

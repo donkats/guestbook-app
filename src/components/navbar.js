@@ -1,38 +1,91 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React from 'react'
+import { Link } from 'gatsby'
 
-const Navbar = (props) => {
-  function toggleBurgerMenu() {
-    document.querySelector('.navbar-menu').classList.toggle('is-active');
+const Navbar = class extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      active: false,
+      navBarActiveClass: '',
+    }
   }
 
-  return (
-    <nav className="navbar is-link is-medium" role="navigation" aria-label="main navigation">
-      <div className="navbar-brand">
-        <Link to="/" className="navbar-item">Home</Link>
+  toggleHamburger = () => {
+    // toggle the active boolean in the state
+    this.setState(
+      {
+        active: !this.state.active,
+      },
+      // after state has been updated,
+      () => {
+        // set the class in state for the navbar accordingly
+        this.state.active
+          ? this.setState({
+              navBarActiveClass: 'is-active',
+            })
+          : this.setState({
+              navBarActiveClass: '',
+            })
+      }
+    )
+  }
 
-        <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic"
-          onClick={toggleBurgerMenu}>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
+  render() {
+    return (
+      <nav
+        className="navbar is-link"
+        role="navigation"
+        aria-label="main-navigation"
+      >
+        <div className="container">
+          <div className="navbar-brand">
+          <Link to="/" className="navbar-item">Home</Link>
 
-      <div id="navbarBasic" className="navbar-menu">
-        <div className="navbar-end">
-        <Link to="/overons" className="navbar-item" onClick={toggleBurgerMenu}>Over ons</Link>
-        <Link to="/appartement" className="navbar-item" onClick={toggleBurgerMenu}>Appartement</Link>
-        <Link to="/omgeving" className="navbar-item" onClick={toggleBurgerMenu}>Omgeving</Link>
-        <Link to="/beschikbaarheid" className="navbar-item" onClick={toggleBurgerMenu}>Beschikbaarheid</Link>
-          <Link to="/fotos" className="navbar-item" onClick={toggleBurgerMenu}>Foto's</Link>
-          <Link to="/gastenboek" className="navbar-item" onClick={toggleBurgerMenu}>Gastenboek</Link>
-          <Link to="/contact" className="navbar-item" onClick={toggleBurgerMenu}>Contact</Link>
+            <div
+              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+              data-target="navMenu"
+              onClick={() => this.toggleHamburger()}
+            >
+              <span />
+              <span />
+              <span />
+            </div>
+          </div>
+          <div
+            id="navMenu"
+            className={`navbar-menu ${this.state.navBarActiveClass}`}
+          >
+            <div className="navbar-end has-text-centered">
+              <Link className="navbar-item" to="/overons">
+                Over ons
+              </Link>
+              <Link className="navbar-item" to="/appartement">
+                Appartement
+              </Link>
+              <Link className="navbar-item" to="/omgeving">
+                Omgeving
+              </Link>
+              <Link className="navbar-item" to="/beschikbaarheid">
+                Beschikbaarheid
+              </Link>
+              <Link className="navbar-item" to="/fotos">
+                Foto's
+              </Link>
+              <Link className="navbar-item" to="/gastenboek">
+                Gastenboek
+              </Link>
+              <Link className="navbar-item" to="/contact">
+                Contact
+              </Link>
+
+            </div>
+            
+
+          </div>
         </div>
-      </div>
-    </nav>
-  );
+      </nav>
+    )
+  }
 }
 
 export default Navbar;
-
