@@ -6,10 +6,6 @@ const Fotos = (props) => {
 
     const images = [
         {
-            original: require("../assets/rocasfoto15.jpg"),
-            thumbnail: require("../assets/rocasfoto15.jpg"),
-        },
-        {
             original: require("../assets/rocasfoto19.jpg"),
             thumbnail: require("../assets/rocasfoto19.jpg"),
         },
@@ -72,10 +68,6 @@ const Fotos = (props) => {
         {
             original: require("../assets/rocasfoto12.jpg"),
             thumbnail: require("../assets/rocasfoto12.jpg"),
-        },
-        {
-            original: require("../assets/rocasfoto03.jpg"),
-            thumbnail: require("../assets/rocasfoto03.jpg"),
         },
         {
             original: require("../assets/rocasfoto08.jpg"),

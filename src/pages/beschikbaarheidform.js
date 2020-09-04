@@ -7,7 +7,7 @@ const BeschikbaarheidForm = (props) => {
       <input type="hidden" name="bot-field" />
       <input type="hidden" name="form-name" value="beschikbaarheid" />
 
-      <div className="field is-inline-block-desktop">
+      <div className="field is-inline-block-desktop" id="field-large">
         <div className="control">
           <label className="label" id="input-margin">Volledige naam:
                     <input
@@ -20,7 +20,7 @@ const BeschikbaarheidForm = (props) => {
         </div>
       </div>
 
-      <div className="field is-inline-block-desktop">
+      <div className="field is-inline-block-desktop" id="field-small">
         <div className="control">
           <label className="label">Aantal personen:
                     <input
@@ -33,7 +33,7 @@ const BeschikbaarheidForm = (props) => {
         </div>
       </div>
 
-      <div className="field is-inline-block-desktop">
+      <div className="field is-inline-block-desktop" id="field-large">
         <div className="control">
           <label className="label" id="input-margin">Straatnaam:
                     <input
@@ -46,7 +46,7 @@ const BeschikbaarheidForm = (props) => {
         </div>
       </div>
 
-      <div className="field  is-inline-block-desktop">
+      <div className="field is-inline-block-desktop" id="field-small">
         <div className="control">
           <label className="label">Huisnummer:
                     <input
@@ -59,7 +59,7 @@ const BeschikbaarheidForm = (props) => {
         </div>
       </div>
 
-      <div className="field is-inline-block-desktop" >
+      <div className="field is-inline-block-desktop" id="field-medium">
         <div className="control">
           <label className="label" id="input-margin">Postcode:
                     <input
@@ -72,7 +72,7 @@ const BeschikbaarheidForm = (props) => {
         </div>
       </div>
 
-      <div className="field is-inline-block-desktop">
+      <div className="field is-inline-block-desktop" id="field-medium">
         <div className="control">
           <label className="label">Woonplaats:
                     <input
@@ -85,7 +85,7 @@ const BeschikbaarheidForm = (props) => {
         </div>
       </div>
 
-      <div className="field is-inline-block-desktop">
+      <div className="field is-inline-block-desktop" id="field-medium">
         <div className="control">
           <label className="label"  id="input-margin">Telefoonnummer:
                     <input
@@ -98,7 +98,7 @@ const BeschikbaarheidForm = (props) => {
         </div>
       </div>
 
-      <div class="field is-inline-block-desktop">
+      <div class="field is-inline-block-desktop" id="field-medium">
           <div className="control">
         <label className="label">Emailadres:
           <input

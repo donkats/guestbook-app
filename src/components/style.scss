@@ -62,10 +62,6 @@ nav {
     margin-bottom: 3%;
 }
 
-#input-margin {
-    margin-right: 2%;
-}
-
 .reactions{
     white-space: pre-line;
 }
@@ -86,5 +82,22 @@ nav {
 
     nav {
         font-size: medium;
+    }
+
+    #field-large {
+        width: 70%;
+    }
+
+
+    #field-small {
+        width: 30%;
+    }
+
+    #field-medium {
+        width: 50%;
+    }
+
+    #input-margin {
+        margin-right: 2%;
     }
 }
