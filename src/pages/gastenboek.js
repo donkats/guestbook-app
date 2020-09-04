@@ -37,16 +37,16 @@ const Gastenboek = () => {
         <br />
 
         <div class="container">
-            <h2 className="title is-5">Schrijf in ons gastenboek</h2>
-            <SignForm setSigData={setSigData}></SignForm>
+          <h2 className="title is-5">Schrijf in ons gastenboek</h2>
+          <SignForm setSigData={setSigData}></SignForm>
         </div>
 
         <br />
         <br />
 
         <div class="container">
-            <h2 className="title is-5">Berichten van onze bezoekers</h2>
-            <Signatures sigData={sigData}></Signatures>
+          <h2 className="title is-5">Berichten van onze bezoekers</h2>
+          <Signatures sigData={sigData}></Signatures>
         </div>
 
       </div>

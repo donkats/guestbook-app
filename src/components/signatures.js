@@ -3,17 +3,17 @@ import Signature from './signature'
 
 const Signatures = (props) => {
 
-    const SignatureMarkup = () => {
-        return props.sigData.map((signature, index) => {
-            return (
-                <Signature key={index} signature={signature}></Signature>
-            )
-        }).reverse()
-    }
+  const SignatureMarkup = () => {
+    return props.sigData.map((signature, index) => {
+      return (
+        <Signature key={index} signature={signature}></Signature>
+      )
+    }).reverse()
+  }
 
-    return (
-        <div className="reactions"><SignatureMarkup></SignatureMarkup></div>
-    )
+  return (
+    <div className="reactions"><SignatureMarkup></SignatureMarkup></div>
+  )
 }
 
 export default Signatures;

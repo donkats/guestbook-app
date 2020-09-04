@@ -10,8 +10,8 @@ const Bedankt = () => (
       <hr class="hr" />
 
       <div class="container">
-      Bedankt, uw bericht is succesvol verzonden! Wij zullen uw bericht zo spoedig beantwoorden, 
-      meestal lukt dit binnen 24 uur.
+        Bedankt, uw bericht is succesvol verzonden! Wij zullen uw bericht zo spoedig beantwoorden,
+        meestal lukt dit binnen 24 uur.
       </div>
     </div>
   </Layout>

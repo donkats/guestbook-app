@@ -87,7 +87,7 @@ const BeschikbaarheidForm = (props) => {
 
       <div className="field is-inline-block-desktop" id="field-medium">
         <div className="control">
-          <label className="label"  id="input-margin">Telefoonnummer:
+          <label className="label" id="input-margin">Telefoonnummer:
                     <input
               className="input"
               name="telefoonnummer"
@@ -99,15 +99,15 @@ const BeschikbaarheidForm = (props) => {
       </div>
 
       <div class="field is-inline-block-desktop" id="field-medium">
-          <div className="control">
-        <label className="label">Emailadres:
+        <div className="control">
+          <label className="label">Emailadres:
           <input
-            className="input"
-            type="email"
-            name="emailadres"
-            data-validate="require"
-            required
-          />
+              className="input"
+              type="email"
+              name="emailadres"
+              data-validate="require"
+              required
+            />
           </label>
         </div>
       </div>
