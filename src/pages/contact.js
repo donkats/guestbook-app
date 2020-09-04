@@ -8,7 +8,7 @@ const Contact = (props) => {
   return (
     <Layout>
 
-      <div class="container has-background-white" id="page-container">
+<div class="column has-background-white" id="page-container">
 
         <h2 class="title is-2 has-text-centered">Contact</h2>
         <hr class="hr" />

@@ -24,7 +24,7 @@ const Gastenboek = () => {
   const [sigData, setSigData] = useState(data.allSignatures.nodes);
   return (
     <Layout>
-      <div class="container has-background-white" id="page-container">
+      <div class="column has-background-white" id="page-container">
 
         <h2 class="title is-2 has-text-centered">Gastenboek</h2>
         <hr class="hr" />
