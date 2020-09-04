@@ -44,7 +44,6 @@ const Omgeving = (props) => {
                 <i class="fas fa-plane fa-3x"></i>
               </span>
             </div>
-
             <p>
               <strong>Vliegtijd van/naar Nederland</strong>
               <br />
@@ -102,7 +101,7 @@ const Omgeving = (props) => {
         <div class="box">
           <article class="media">
             <div class="media-left">
-              <span class="icon is-large is-center">
+              <span class="icon is-large is-center" >
                 <i class="fas fa-money-bill-alt fa-3x"></i>
               </span>
             </div>
