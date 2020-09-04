@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const ContactForm = (props) => {
 
   return (
-    <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
+    <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact" action="/bedankt">
       <input type="hidden" name="bot-field" />
       <input type="hidden" name="form-name" value="contact" />
 

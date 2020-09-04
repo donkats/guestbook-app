@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const BeschikbaarheidForm = (props) => {
 
   return (
-    <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="beschikbaarheid">
+    <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="beschikbaarheid" action="/bedankt">
       <input type="hidden" name="bot-field" />
       <input type="hidden" name="form-name" value="beschikbaarheid" />
 
