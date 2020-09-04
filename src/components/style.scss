@@ -10,7 +10,7 @@
 
 body {
     background-image: url("../assets/background-wide.jpg");
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -18,15 +18,15 @@ body {
     background-color: blue;
 }
 
-nav {
-    font-size: large;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding-right: 3%;
-    padding-left: 3%;
-  }
+// nav {
+//     font-size: large;
+//     font-family: 'Roboto', sans-serif;
+//     display: flex;
+//     width: 100%;
+//     justify-content: space-between;
+//     padding-right: 3%;
+//     padding-left: 3%;
+//   }
 
 #footer {
     max-height: 10px;
@@ -44,11 +44,13 @@ nav {
 .section{
     color: blue;
     background-color: white;
+    font-family: 'Merriweather Sans', sans-serif;
   }
 
 .container {
     color: blue;
     font-size: large;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 #page-container {

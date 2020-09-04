@@ -20,7 +20,7 @@ function Navbar() {
                   className={`navbar-burger burger ${isActive ? "is-active" : ""}`}
                   aria-label="menu"
                   aria-expanded="false"
-                  data-target="navbarBasicExample"
+                  data-target="navbar-rocas"
                 >
                   <span aria-hidden="true"></span>
                   <span aria-hidden="true"></span>
@@ -62,10 +62,6 @@ function Navbar() {
 
                   <Link className="navbar-item" to="/contact">
                     Contact
-    </Link>
-
-    <Link className="navbar-item" to="/lettertypetest">
-                    Test
     </Link>
                 </div>
               </div>
