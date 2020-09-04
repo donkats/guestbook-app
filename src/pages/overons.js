@@ -44,7 +44,7 @@ const OverOns = (props) => {
         <br />
         <br />
 
-        <div class="columns is-mobile is-centered">
+        <div class="columns is-centered">
           <div class="column" id="caro-xander-1">
             <img src={caroxander1} alt="" />
           </div>
