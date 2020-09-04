@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const BeschikbaarheidForm = (props) => {
 
+  const [message, setMessage] = useState('');
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    setMessage('Bedankt, uw bericht is succesvol verzonden! Wij zullen uw bericht zo spoedig beantwoorden, meestal lukt dit binnen 24 uur.');
+  };
+
   return (
-    <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="beschikbaarheid">
+    <div>
+    <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="beschikbaarheid" onSubmit={(e) => onSubmit(e)}>
       <input type="hidden" name="bot-field" />
       <input type="hidden" name="form-name" value="beschikbaarheid" />
 
@@ -130,6 +138,8 @@ const BeschikbaarheidForm = (props) => {
         <button className="button is-primary" type="submit">Verzenden</button>
       </div>
     </form>
+    <span style={{ "margin-top": "30px", "color": "blue" }}>{message}</span>
+    </div>
 
   )
 }
