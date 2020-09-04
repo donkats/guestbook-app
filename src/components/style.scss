@@ -4,7 +4,8 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Alice&family=Fira+Sans+Condensed&family=Inconsolata&family=Kufam&family=Merriweather+Sans&family=Overpass&family=PT+Serif&family=Sawarabi+Mincho&family=Syne&display=swap');
 
-
+@include desktop {
+    
 body {
     background-image: url("../assets/background-wide.jpg");
     font-family: 'Merriweather Sans', sans-serif;
@@ -62,6 +63,8 @@ body {
 
 .reactions{
     white-space: pre-line;
+}
+
 }
 
 @import '~bulma/bulma.sass';

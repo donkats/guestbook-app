@@ -6,7 +6,7 @@ import '../components/style.scss';
 const Fotos = (props) => {
   return (
     <Layout>
-      <div class="column has-background-white" id="page-container">
+      <div class="container has-background-white" id="page-container">
 
         <h2 class="title is-2 has-text-centered">Foto's</h2>
         <hr class="hr" />

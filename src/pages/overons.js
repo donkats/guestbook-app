@@ -7,7 +7,7 @@ import '../components/style.scss';
 const OverOns = (props) => {
   return (
     <Layout>
-      <div class="column has-background-white" id="page-container">
+      <div class="container has-background-white" id="page-container">
 
         <h2 class="title is-2 has-text-centered">Wie zijn wij?</h2>
         <hr class="hr" />

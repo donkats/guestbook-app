@@ -5,7 +5,7 @@ import '../components/style.scss';
 const Omgeving = (props) => {
   return (
     <Layout>
-      <div class="column has-background-white" id="page-container">
+      <div class="container has-background-white" id="page-container">
 
         <h2 class="title is-2 has-text-centered">Informatie complex & omgeving</h2>
         <hr class="hr" />
