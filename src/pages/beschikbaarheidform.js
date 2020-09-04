@@ -11,7 +11,7 @@ const BeschikbaarheidForm = (props) => {
 
   return (
     <div>
-    <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="beschikbaarheid" onSubmit={(e) => onSubmit(e)}>
+    <form onSubmit={(e) => onSubmit(e)} method="post" netlify-honeypot="bot-field" data-netlify="true" name="beschikbaarheid">
       <input type="hidden" name="bot-field" />
       <input type="hidden" name="form-name" value="beschikbaarheid" />
 
