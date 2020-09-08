@@ -10,7 +10,6 @@ const Omgeving = (props) => {
         <h2 class="title is-2 has-text-centered">Informatie complex & omgeving</h2>
         <hr class="hr" />
 
-
         <div class="columns">
           <div class="column">
             <strong>Adres</strong><br />
