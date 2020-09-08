@@ -2,11 +2,11 @@ require('dotenv').config();
 
 module.exports = {
 	siteMetadata: {
-		title: 'Vakantiehuis Rocas del Mar Tenerife',
+		title: 'Vakantiehuis aan zee, Costa del Silencio Tenerife',
 		author: 'Xander de Graaf en Caro Landwaart',
 		imageUrl: 'src/assets/rocasfotoapp.jpg',
-		description: 'Wij verhuren ons vakantiehuis / appartement in Costa del Silencio, Tenerife',
-		keywords: `Tenerife, Rocas del Mar, Costa del Silencio, appartement, vakantie, vakantiehuis, zeezicht, Rocas, Spanje, strand, zwembad, kinderbad, verhuur, huren, huur`,
+		description: 'Wij verhuren ons appartement aan zee in complex Rocas del Mar, Tenerife',
+		keywords: `Tenerife, Rocas del Mar, Costa del Silencio, appartement, vakantiehuis, zeezicht, Spanje, strand, zwembad, kinderbad, huren, huur`,
 		siteUrl: `https://www.rocastenerife.nl`
 	},
 	plugins: [
