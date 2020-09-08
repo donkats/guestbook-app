@@ -4,18 +4,21 @@ import Navbar from './navbar';
 import Footer from './footer';
 import './style.scss';
 import PropTypes from "prop-types";
-
+import StyledFullBackground from '../components/backgroundsection';
 
 const Layout = ({ children }) => {
   return (
     <>
       <div id="page-wrapper">
-        <Helmet />
-        <Navbar />
+        <StyledFullBackground>
+          <Helmet />
+          <Navbar />
 
-        <main>{children}</main>
+          <main>{children}</main>
 
-        <Footer />
+          <Footer />
+        </StyledFullBackground>
+
       </div>
     </>
   )
@@ -25,4 +28,4 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default Layout;

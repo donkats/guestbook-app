@@ -47,7 +47,6 @@ const Home = (props) => {
           </div>
       </div>
     </Layout>
-
   );
 };
 
