@@ -1,8 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import styled from 'styled-components';
 import BackgroundImage from 'gatsby-background-image';
-
 
 const FullBackground = ({ children }) => {
   const { desktop } = useStaticQuery(
@@ -18,7 +16,6 @@ const FullBackground = ({ children }) => {
       }
     `);
     
-
   return (
     <BackgroundImage
       Tag="section"
@@ -40,7 +37,4 @@ const FullBackground = ({ children }) => {
   );
 };
 
-const StyledFullBackground = styled(FullBackground)`
-`;
-
-export default StyledFullBackground
+export default FullBackground;

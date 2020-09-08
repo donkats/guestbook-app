@@ -4,20 +4,20 @@ import Navbar from './navbar';
 import Footer from './footer';
 import './style.scss';
 import PropTypes from "prop-types";
-import StyledFullBackground from '../components/backgroundsection';
+import FullBackground from '../components/backgroundsection';
 
 const Layout = ({ children }) => {
   return (
     <>
       <div id="page-wrapper">
-        <StyledFullBackground>
+        <FullBackground>
           <Helmet />
           <Navbar />
 
           <main>{children}</main>
 
           <Footer />
-        </StyledFullBackground>
+        </FullBackground>
 
       </div>
     </>
