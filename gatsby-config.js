@@ -41,6 +41,14 @@ module.exports = {
 				orientation: 'portrait'
 			}
 		},
+		{
+			resolve: 'gatsby-plugin-robots-txt',
+			options: {
+			  host: 'https://rocastenerife.nl',
+			  sitemap: 'https://rocastenerife.nl/sitemap.xml',
+			  policy: [{ userAgent: '*', allow: '/' }],
+			},
+		  },
 		`gatsby-plugin-sass`,
 		{
 			resolve: `gatsby-plugin-google-analytics`,
@@ -50,6 +58,6 @@ module.exports = {
 				anonymize: true
 			}
 		},
-		`gatsby-plugin-sitemap`
+		`gatsby-plugin-advanced-sitemap`
 	]
 };
