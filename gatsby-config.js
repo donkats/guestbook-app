@@ -2,29 +2,20 @@ require('dotenv').config();
 
 module.exports = {
 	siteMetadata: {
-		title: 'Rocas Tenerife',
-		author: 'Don Kats',
-		imageUrl: 'https://i.imgur.com/Vz81GEl.png',
-		description: 'Appartement Rocas in Tenerife huren.',
-		keywords: `Tenerife, appartement, rocas, huren, huur`,
+		title: 'Vakantiehuis Rocas del Mar Tenerife',
+		author: 'Xander de Graaf en Caro Landwaart',
+		imageUrl: 'src/assets/rocasfotoapp.jpg',
+		description: 'Wij verhuren ons vakantiehuis / appartement in Costa del Silencio, Tenerife',
+		keywords: `Tenerife, Rocas del Mar, Costa del Silencio, appartement, vakantie, vakantiehuis, zeezicht, Rocas, Spanje, strand, zwembad, kinderbad, verhuur, huren, huur`,
 		siteUrl: `https://www.rocastenerife.nl`
 	},
 	plugins: [
 		{
 			resolve: `gatsby-source-faunadb`,
 			options: {
-				// The secret for the key you're using to connect to your Fauna database.
-				// You can generate on of these in the "Security" tab of your Fauna Console.
 				secret: process.env.YOUR_FAUNADB_SECRET,
-				// The name of the index you want to query
-				// You can create an index in the "Indexes" tab of your Fauna Console.
 				index: `allSignatures`,
-				// This is the name under which your data will appear in Gatsby GraphQL queries
-				// The following will create queries called `allBird` and `bird`.
 				type: "Signatures",
-				// If you need to limit the number of documents returned, you can specify a 
-				// maximum number to read.
-				// size: 100
 			},
 		},
 		'gatsby-plugin-react-helmet',
@@ -54,14 +45,10 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-google-analytics`,
 			options: {
-				trackingId: 'UA-XXXXXXXX-X',
-				// Setting this parameter is optional (requried for some countries such as Germany)
+				trackingId: 'UA-177466334-1',
 				anonymize: true
 			}
 		},
 		`gatsby-plugin-sitemap`
-		// this (optional) plugin enables Progressive Web App + Offline functionality
-		// To learn more, visit: https://gatsby.app/offline
-		// 'gatsby-plugin-offline',
 	]
 };
