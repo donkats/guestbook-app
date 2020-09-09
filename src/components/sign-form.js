@@ -1,4 +1,5 @@
 import React from 'react';
+import { navigate } from 'gatsby'
 
 import faunadb, { query as q } from "faunadb"
 
@@ -22,6 +23,7 @@ export default class SignForm extends React.Component {
     event.preventDefault();
     const placeSig = await this.createSignature(this.state.sigName, this.state.sigMessage);
     this.props.setSigData(oldState => [...oldState, placeSig]);
+    navigate('/succes');
   }
 
   handleInputChange = event => {

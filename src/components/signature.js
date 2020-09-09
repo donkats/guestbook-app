@@ -2,7 +2,7 @@ import React from 'react';
 
 const Signature = ({ signature }) => {
   const dateObj = new Date(signature._ts / 1000);
-  let dateString = `${dateObj.toLocaleString('nl-NL', { weekday: 'long', day: 'numeric', month: 'long' })} om ${dateObj.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit', hour12: false })}`
+  let dateString = `${dateObj.toLocaleString('nl-NL', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })} om ${dateObj.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit', hour12: false })}`
 
   return (
     <article className="signature box">
