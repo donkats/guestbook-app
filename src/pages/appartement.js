@@ -45,9 +45,28 @@ const Appartement = (props) => {
           kunt uw favoriete televisiezender volgen via canal-digitaal (NL) of TV Vlaanderen (BE).
           Er zijn 2 zwembadkaarten voor de ligbedden en parasols aan het zwembad.
         </div>
+        <br />
+        <br />
+        <div class="container">
+          <h4 class="title is-4 has-text-left">Prijzen</h4>
+
+          Ondergenoemde prijzen gelden voor het gehele jaar en zijn niet seizoensgebonden.
+          <br />
+          <br />
+
+          <table class="table is-bordered">
+            <tbody>
+              <tr><th>Prijs per nacht (niet p.p.)</th><td>€60,-</td></tr>
+              <tr><th>Eindschoonmaak</th><td>€65,-</td></tr>
+              <tr><th>Maximaal aantal personen</th><td>4</td></tr>
+            </tbody>
+          </table>
+
+        <p class="is-size-6">Indien u een maand of langer bij ons boekt ontvangt u van ons een offerte met aangepast, voordeliger maandtarief.</p>
+        </div>
 
         <figure id="photo-arrow" class="image is-4by3">
-          <img src={photoArrow} alt="" />
+          <img src={photoArrow} alt="Overzichtsfoto Rocas del Mar" />
         </figure>
 
       </div>

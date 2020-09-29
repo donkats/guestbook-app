@@ -20,7 +20,6 @@ const FullBackground = ({ children }) => {
     <BackgroundImage
       Tag="section"
       fluid={desktop.childImageSharp.fluid}
-      title="Fullscreen Background"
       id="fullscreenbg"
       role="img"
       aria-label="Fullscreen Background"
