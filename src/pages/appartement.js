@@ -19,25 +19,25 @@ const Appartement = (props) => {
         <br />
         <div class="container">
           Ons appartement is modern ingericht, met voldoende opbergmogelijkheden.
-          In de woonkamer staat een lederen bank die tevens dienst doet als ruime 2 persoons slaapbank. Ook
-          staat er een comfortabele losse stoel.
+          In de woonkamer staat een ruime bank en tevens een comfortabele losse stoel.
           </div>
         <br />
         <div class="container">
           De keuken is voorzien van alle apparatuur zoals een koelkast, keramische kookplaat, oven,
-          magnetron, koffiezetapparaat en senseo, broodrooster en alle kookbenodigdheden. Er staat een
+          magnetron, koffiezetapparaat, waterkoker, broodrooster en alle kookbenodigdheden. Er staat een
           ruime tafel met 4 stoelen waaraan u ontspannen kunt eten.
           </div>
         <br />
         <div class="container">
           Het terras, met zonneluifel, is voorzien van een tafel met 4 stoelen, bijbehorende kussens zijn
-          beschikbaar. Een heerlijke terrasverhoging, waarop u heerlijk van de zon kunt genieten. Om
-          comfortabel te kunnen liggen is er ook een ligbedkussen aanwezig.
+          beschikbaar. Een heerlijke terrasverhoging, waarop u heerlijk van de zon kunt genieten. Tevens is er een los ligbed 
+          met kussen aanwezig.
           </div>
         <br />
         <div class="container">
           De slaapkamer is voorzien van een 2-persoonbed van 1,80m en een ruime kledingkast. Verder
-          beschikt u over een wasmachine, wasrek en strijkplank.
+          beschikt u over een wasmachine, wasrek en strijkplank. Voor de derde persoon is er een luchtbed inclusief
+          beddengoed aanwezig.
           </div>
         <br />
         <div class="container">
@@ -58,7 +58,7 @@ const Appartement = (props) => {
             <tbody>
               <tr><th>Prijs per nacht (niet p.p.)</th><td>€60,-</td></tr>
               <tr><th>Eindschoonmaak</th><td>€65,-</td></tr>
-              <tr><th>Maximaal aantal personen</th><td>4</td></tr>
+              <tr><th>Maximaal aantal personen</th><td>3</td></tr>
             </tbody>
           </table>
 
