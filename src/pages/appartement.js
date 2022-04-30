@@ -19,7 +19,7 @@ const Appartement = (props) => {
         <br />
         <div class="container">
           Ons appartement is modern ingericht, met voldoende opbergmogelijkheden.
-          In de woonkamer staat een ruime bank en tevens een comfortabele losse stoel.
+          In de woonkamer staat een ruime slaapbank en tevens een comfortabele losse stoel.
           </div>
         <br />
         <div class="container">
@@ -36,8 +36,7 @@ const Appartement = (props) => {
         <br />
         <div class="container">
           De slaapkamer is voorzien van een 2-persoonbed van 1,80m en een ruime kledingkast. Verder
-          beschikt u over een wasmachine, wasrek en strijkplank. Voor de derde persoon is er een luchtbed inclusief
-          beddengoed aanwezig.
+          beschikt u over een wasmachine, wasrek en strijkplank.
           </div>
         <br />
         <div class="container">

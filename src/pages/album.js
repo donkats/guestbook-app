@@ -22,24 +22,20 @@ const Fotos = (props) => {
       thumbnail: require("../assets/rocasfoto22.jpg"),
     },
     {
-      original: require("../assets/rocas01.jpeg"),
-      thumbnail: require("../assets/rocas01.jpeg"),
+      original: require("../assets/rocasnieuw1.jpeg"),
+      thumbnail: require("../assets/rocasnieuw1.jpeg"),
     },   
     {
-      original: require("../assets/rocas02.jpeg"),
-      thumbnail: require("../assets/rocas02.jpeg"),
+      original: require("../assets/rocasnieuw2.jpeg"),
+      thumbnail: require("../assets/rocasnieuw2.jpeg"),
     },   
     {
-      original: require("../assets/rocas03.jpeg"),
-      thumbnail: require("../assets/rocas03.jpeg"),
+      original: require("../assets/rocasnieuw3.jpeg"),
+      thumbnail: require("../assets/rocasnieuw3.jpeg"),
     },   
     {
-      original: require("../assets/rocas04.jpeg"),
-      thumbnail: require("../assets/rocas04.jpeg"),
-    },   
-    {
-      original: require("../assets/rocas05.jpeg"),
-      thumbnail: require("../assets/rocas05.jpeg"),
+      original: require("../assets/rocasnieuw4.jpeg"),
+      thumbnail: require("../assets/rocasnieuw4.jpeg"),
     },   
     {
       original: require("../assets/rocas06.jpeg"),
@@ -54,21 +50,17 @@ const Fotos = (props) => {
       thumbnail: require("../assets/rocas08.jpeg"),
     },   
     {
-      original: require("../assets/rocas09.jpeg"),
-      thumbnail: require("../assets/rocas09.jpeg"),
+      original: require("../assets/rocasnieuw9.jpeg"),
+      thumbnail: require("../assets/rocasnieuw9.jpeg"),
     },   
     {
-      original: require("../assets/rocas10.jpeg"),
-      thumbnail: require("../assets/rocas10.jpeg"),
+      original: require("../assets/rocasnieuw10.jpeg"),
+      thumbnail: require("../assets/rocasnieuw10.jpeg"),
     },  
     {
-      original: require("../assets/rocas11.jpeg"),
-      thumbnail: require("../assets/rocas11.jpeg"),
+      original: require("../assets/rocasnieuw11.jpeg"),
+      thumbnail: require("../assets/rocasnieuw11.jpeg"),
     }, 
-    {
-      original: require("../assets/rocas12.jpeg"),
-      thumbnail: require("../assets/rocas12.jpeg"),
-    },
     {
       original: require("../assets/rocasfoto25.jpeg"),
       thumbnail: require("../assets/rocasfoto25.jpeg"),

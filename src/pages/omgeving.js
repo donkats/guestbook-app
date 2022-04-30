@@ -19,7 +19,7 @@ const Omgeving = (props) => {
             Tenerife
             </div>
           <div class="column" id="google-maps">
-            <iframe title="Google maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3522.647608889461!2d-16.647958384866556!3d28.00467581896912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6aa211f1c1c197%3A0x3fc7306ee8f87c2a!2sRocas%20del%20Mar!5e0!3m2!1sen!2snl!4v1596660545853!5m2!1sen!2snl"
+            <iframe title="Google maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3522.6459065669837!2d-16.647808185176107!3d28.00472788266968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6aa211e8a27101%3A0xae84084f47f90294!2sCalle%20Zeus%2C%206%2C%2038630%20Costa%20del%20Silencio%2C%20Santa%20Cruz%20de%20Tenerife%2C%20Spanje!5e0!3m2!1snl!2snl!4v1651348970945!5m2!1snl!2snl"
               style={{ width: '80%', frameborder: '0', borderRadius: '20px' }} allowfullscreen></iframe>
           </div>
         </div>
