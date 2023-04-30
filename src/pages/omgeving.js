@@ -187,8 +187,6 @@ const Omgeving = (props) => {
             >Ryanair</a>,
             <a href="https://www.transavia.com/" target="_blank" rel="noopener noreferrer"
             > Transavia</a>,
-            <a href="http://www.vliegensvlug.be/" target="_blank" rel="noopener noreferrer"
-            > Vliegensvlug</a>,
             <a href="https://www.thomascook.com/nl-be" target="_blank" rel="noopener noreferrer"
             > Thomas Cook</a>,
             <a href="https://www.easyjet.com/nl" target="_blank" rel="noopener noreferrer"
