@@ -56,7 +56,7 @@ const Appartement = (props) => {
           <table class="table is-bordered">
             <tbody>
               <tr><th>Prijs per nacht (niet p.p.)</th><td>€65,-</td></tr>
-              <tr><th>Eindschoonmaak</th><td>€65,-</td></tr>
+              <tr><th>Eindschoonmaak</th><td>€70,-</td></tr>
               <tr><th>Maximaal aantal personen</th><td>3</td></tr>
             </tbody>
           </table>
