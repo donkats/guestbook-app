@@ -187,8 +187,8 @@ const Omgeving = (props) => {
             >Ryanair</a>,
             <a href="https://www.transavia.com/" target="_blank" rel="noopener noreferrer"
             > Transavia</a>,
-            <a href="https://www.thomascook.com/nl-be" target="_blank" rel="noopener noreferrer"
-            > Thomas Cook</a>,
+            <a href="https://www.corendon.com/nl/vliegtickets-tenerife" target="_blank" rel="noopener noreferrer"
+            > Corendon</a>,
             <a href="https://www.easyjet.com/nl" target="_blank" rel="noopener noreferrer"
             > Easyjet</a>,
             <a href="https://www.tui.nl/vliegtickets/" target="_blank" rel="noopener noreferrer"
@@ -200,13 +200,12 @@ const Omgeving = (props) => {
 
         <div class="container">
           <strong>Autoverhuur</strong><br />
-          <li><a href="https://www.autoreisen.es" target="_blank" rel="noopener noreferrer"
+          <li><a href="https://autoreisen.com/car-hire/car-hire.php" target="_blank" rel="noopener noreferrer"
           >Vanaf de luchthaven</a>.</li>
           <li>Het is ook mogelijk om een auto te huren bij een bedrijf dicht bij het complex bij
             <a href="https://www.rentacar-gigi.com/nl" target="_blank" rel="noopener noreferrer"
             > Gigi rent a car</a>.
-            Wij kunnen eventueel een huurauto voor u reserveren bij boeking,
-            u kunt dan uw auto bij het complex ophalen op de gewenste datum indien beschikbaar.</li>
+            </li>
 
         </div><br />
 
