@@ -7,6 +7,20 @@ const BeschikbaarheidForm = (props) => {
       <input type="hidden" name="bot-field" />
       <input type="hidden" name="form-name" value="beschikbaarheid" />
 
+<div className="field is-inline-block-desktop" id="field-medium">
+  <div className="control">
+    <label className="label">Voorkeur appartement:
+      <div className="select is-fullwidth">
+        <select name="voorkeur appartement" required>
+          <option value="Geen voorkeur">Geen voorkeur</option>
+          <option value="Appartement 102">Appartement 102</option>
+          <option value="Appartement 107">Appartement 107</option>
+        </select>
+      </div>
+    </label>
+  </div>
+</div>
+    
       <div className="field is-inline-block-desktop" id="field-large">
         <div className="control">
           <label className="label" id="input-margin">Volledige naam:
