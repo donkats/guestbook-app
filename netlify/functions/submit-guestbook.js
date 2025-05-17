@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 const GITHUB_REPO = 'donkats/guestbook-app';
-const GITHUB_FILE_PATH = 'guestbook.json';
+const GITHUB_FILE_PATH = 'src/data/guestbook.json';
 const GITHUB_BRANCH = 'main'; // or your branch name
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
