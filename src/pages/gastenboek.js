@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { navigate } from 'gatsby';
 import guestbookData from '../data/guestbook.json';
 import Layout from "../components/layout";
 import '../components/style.css';
@@ -62,7 +63,7 @@ const SignForm = ({ onAddSignature }) => {
 const Signatures = ({ sigData }) => (
   <div>
     {sigData && sigData.length > 0 ? (
-      [...sigData].reverse().map((entry, idx) => (
+      sigData.map((entry, idx) => (
         <div key={idx} className="box" style={{ marginBottom: '1rem' }}>
           <strong>{entry.name}</strong>
           <span style={{ float: 'right', color: '#888', fontSize: '0.9em' }}>
@@ -93,8 +94,8 @@ const Gastenboek = () => {
         throw new Error('Failed to submit guestbook entry');
       }
 
-      // Optionally update UI immediately (entry will appear after next build)
       setSigData(prev => [{ ...newEntry, date: new Date().toISOString() }, ...prev]);
+      navigate('/succes'); // Redirect after successful submission
     } catch (error) {
       console.error(error);
       alert('Er is iets misgegaan bij het versturen van uw bericht.');
