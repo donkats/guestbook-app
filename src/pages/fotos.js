@@ -10,7 +10,9 @@ const Fotos = (props) => {
 
         <h2 class="title is-2 has-text-centered">Foto's</h2>
         <hr class="hr" />
-
+<div class="container">
+          Let op: De foto's die u hier ziet appartement 102, foto's van appartement 107 zullen dit najaar worden toegevoegd op deze pagina. 
+        </div>
         <Album />
 
       </div>
