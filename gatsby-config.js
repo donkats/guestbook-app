@@ -18,6 +18,5 @@ module.exports = {
       },
     },
     `gatsby-transformer-json`
-  ],
-  adapter: require("gatsby-adapter-netlify"),
+  ]
 };
