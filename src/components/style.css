@@ -145,12 +145,19 @@ th {
 .navbar,
 .hero.is-link {
     background-color: #174ea6 !important;
+    box-shadow: none !important;
+    border: none !important;
 }
 
-/* Navbar item hover: use a darker blue (matches live environment) */
-.navbar-item:hover, .navbar-item:focus {
+/* Make all navbar items have the same blue background and white text */
+.navbar,
+.navbar-menu,
+.navbar-end,
+.navbar-start,
+.navbar-item {
     background-color: #174ea6 !important;
     color: #fff !important;
+    border: none !important;
 }
 
 /* Hamburger menu icon white */
@@ -165,6 +172,20 @@ th {
 
 /* Mobile menu links white for contrast */
 .navbar-menu .navbar-item {
+    color: #fff !important;
+}
+
+/* Navbar item hover: use a slightly darker blue for highlight */
+.navbar-item:hover,
+.navbar-item:focus {
+    background-color: #123a7a !important;
+    color: #fff !important;
+}
+
+/* Make sure the active page link is also white text and blue background */
+.navbar-item.is-active,
+.navbar-item[aria-current="page"] {
+    background-color: #174ea6 !important;
     color: #fff !important;
 }
 
@@ -237,9 +258,9 @@ th {
         margin-right: 2%;
     }
 
-    /* Navbar item hover: use a darker blue (matches live environment) */
+    /* Navbar item hover: use a slightly darker blue for highlight */
     .navbar-item:hover, .navbar-item:focus {
-        background-color: #174ea6 !important; /* darker blue */
+        background-color: #123a7a !important;
         color: #fff !important;
     }
 }
