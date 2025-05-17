@@ -13,12 +13,12 @@ const Appartement = (props) => {
         <hr class="hr" />
 
         <div class="container">
-          Ons appartement is gelegen aan de oceaanzijde van het complex op de 1e verdieping en is
+          Onze appartementen zijn gelegen aan de oceaanzijde van het complex op de 1e verdieping en zijn
           bereikbaar via een trap aan de voorzijde.
           </div>
         <br />
         <div class="container">
-          Ons appartement is modern ingericht, met voldoende opbergmogelijkheden.
+          Beide appartementen zijn modern ingericht, met voldoende opbergmogelijkheden.
           In de woonkamer staat een ruime slaapbank en tevens een comfortabele losse stoel.
           </div>
         <br />
@@ -40,9 +40,9 @@ const Appartement = (props) => {
           </div>
         <br />
         <div class="container">
-          In het appartement is een kluisje aanwezig. U kunt tevens gebruik maken van de gratis WIFI en u
-          kunt uw favoriete televisiezender volgen via canal-digitaal (NL) of TV Vlaanderen (BE).
-          Er zijn 2 zwembadkaarten voor de ligbedden en parasols aan het zwembad.
+          In elk van de appartementen is een kluisje aanwezig. U kunt tevens gebruik maken van de gratis WIFI en u
+          kunt uw favoriete televisiezender volgen via NLZIET (NL) of TV Vlaanderen (BE).
+          Als u één van onze appartementen huurt, krijgt u 2 zwembadkaarten voor de ligbedden en parasols aan het zwembad.
         </div>
         <br />
         <br />
