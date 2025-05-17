@@ -141,6 +141,27 @@ th {
     color: #fff !important;
 }
 
+/* Navbar item hover: use a darker blue (matches live environment) */
+.navbar-item:hover, .navbar-item:focus {
+    background-color: #174ea6 !important;
+    color: #fff !important;
+}
+
+/* Hamburger menu icon white */
+.navbar-burger {
+    color: #fff !important;
+}
+
+/* Mobile dropdown menu background blue */
+.navbar-menu {
+    background-color: #174ea6 !important;
+}
+
+/* Mobile menu links white for contrast */
+.navbar-menu .navbar-item {
+    color: #fff !important;
+}
+
 /* Other elements */
 .media-left {
     width: 100px;
