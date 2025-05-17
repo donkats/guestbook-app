@@ -1,0 +1,218 @@
+/* Import Google Fonts for Merriweather Sans */
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700&display=swap');
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+/* Set Merriweather Sans as the default font for all main elements */
+body, .container, .box, table, input, textarea, select, button {
+    font-family: 'Merriweather Sans', Arial, sans-serif !important;
+}
+
+/* Background image for the site */
+body {
+    background: url('/images/background-wide.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #e6eaf3;
+}
+
+/* Header text (page titles) */
+.title {
+    color: #363636 !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Section styling */
+.section {
+    color: blue;
+    background-color: white;
+}
+
+/* Container styling */
+.container {
+    color: blue;
+    font-size: medium;
+}
+
+/* Make all <strong> headers inside .container and .box faded black */
+.container strong,
+.box strong {
+    color: #363636 !important;
+}
+
+/* Make all form labels dark gray (Bulma default) */
+.label {
+    color: #363636 !important;
+}
+
+/* Table styling: ensure tables have a white background and black text */
+table {
+    background: #fff !important;
+    color: #000 !important;
+    border-collapse: collapse;
+}
+
+th, td {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    font-weight: bold;
+    background: #f5f5f5 !important;
+}
+
+/* Bulma .box: white background and subtle shadow */
+.box {
+    background: #fff !important;
+    box-shadow: 0 2px 8px rgba(10, 10, 10, 0.08), 0 0.5px 1.5px rgba(10,10,10,0.05);
+    border-radius: 6px;
+    color: inherit;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Faded dark gray for icons and text inside .box */
+.box,
+.box strong,
+.box p,
+.box .icon,
+.box .fa,
+.box .fas {
+    color: #363636 !important;
+    fill: #363636 !important;
+}
+
+.box .icon,
+.box .fa,
+.box .fas {
+    opacity: 0.7;
+}
+
+/* Form fields and textareas: match Bulma's default look */
+.input,
+.textarea,
+.select select {
+    background: #fff !important;
+    color: #363636 !important;
+    border: 1px solid #dbdbdb !important;
+    box-shadow: none !important;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 0.625em 0.75em;
+    transition: border-color 0.2s;
+}
+
+/* Placeholder text color for all inputs and textareas */
+.input::placeholder,
+.textarea::placeholder {
+    color: #b5b5b5 !important;
+    opacity: 1;
+}
+
+.input:focus,
+.textarea:focus,
+.select select:focus {
+    border-color: #3273dc !important;
+    outline: none;
+    box-shadow: 0 0 0 0.125em rgba(50,115,220,0.25);
+}
+
+/* Disabled fields */
+.input[disabled],
+.textarea[disabled],
+.select select[disabled] {
+    background: #f5f5f5 !important;
+    color: #b5b5b5 !important;
+    cursor: not-allowed;
+}
+
+/* Make all success buttons green with white text (matches live site) */
+.button.is-success {
+    color: #fff !important;
+    background-color: #388e3c !important;
+    border-color: #388e3c !important;
+}
+.button.is-success:hover,
+.button.is-success:focus {
+    background-color: #2e7031 !important;
+    border-color: #2e7031 !important;
+    color: #fff !important;
+}
+
+/* Other elements */
+.media-left {
+    width: 100px;
+}
+
+#google-maps {
+    padding-left: 10%;
+}
+
+#footer {
+    max-height: 10px;
+    opacity: 1%;
+}
+
+.hr {
+    background-color: blue;
+}
+
+/* Centered page container with max width and background */
+#page-container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;      /* Increased top padding for more space */
+    margin-bottom: 3%;
+    padding: 2%;
+    border-radius: 4px;
+    background: #fff;
+}
+
+#photo-arrow {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.reactions {
+    white-space: pre-line;
+}
+
+/* Responsive styles for desktop */
+@media (min-width: 1024px) {
+    #page-container {
+        max-width: 1000px;
+        padding: 4%;
+        margin-top: 6%;   /* Even more top space on desktop */
+    }
+
+    .container {
+        font-size: large;
+    }
+
+    #field-large {
+        width: 70%;
+    }
+
+    #field-small {
+        width: 30%;
+    }
+
+    #field-medium {
+        width: 50%;
+    }
+
+    #input-margin {
+        margin-right: 2%;
+    }
+
+    /* Navbar item hover: use a darker blue (matches live environment) */
+    .navbar-item:hover, .navbar-item:focus {
+        background-color: #174ea6 !important; /* darker blue */
+        color: #fff !important;
+    }
+}
