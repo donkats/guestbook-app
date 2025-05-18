@@ -203,7 +203,7 @@ const Omgeving = (props) => {
           <li><a href="https://autoreisen.com/car-hire/car-hire.php" target="_blank" rel="noopener noreferrer"
           >Vanaf de luchthaven</a>.</li>
           <li>Het is ook mogelijk om een auto te huren bij een bedrijf dicht bij het complex bij
-            <a href="https://www.rentacar-gigi.com/nl" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.rentacar-gigi.com/welkom-nl" target="_blank" rel="noopener noreferrer"
             > Gigi rent a car</a>.
             </li>
 
@@ -227,8 +227,7 @@ const Omgeving = (props) => {
           >Monkeypark</a></li>
           <li><a href="https://camelpark.es/?lang=en" target="_blank" rel="noopener noreferrer"
           >Camel park</a></li>
-          <li><a href="https://www.droomplekken.nl/spanje/zie-de-walvissen-en-dolfijnen-van-
-            tenerife/" target="_blank" rel="noopener noreferrer"
+          <li><a href="https://www.droomplekken.nl/spanje/zie-de-walvissen-en-dolfijnen-van-tenerife/" target="_blank" rel="noopener noreferrer"
           >Dolfijnen en walvissen excursie</a></li>
         </div><br />
 
@@ -256,7 +255,7 @@ const Omgeving = (props) => {
           >Costa del Silencio</a></li>
           <li><a href="http://www.allesovertenerife.nl/playa-de-las-americas.htm" target="_blank" rel="noopener noreferrer"
           >Playa de Las Americas</a></li>
-          <li><a href="http://www.allesovertenerife.nl/los-cristianos.htm" target="_blank" rel="noopener noreferrer"
+          <li><a href="https://allesovertenerife.nl/plaatsen/los-cristianos/" target="_blank" rel="noopener noreferrer"
           >Los Cristianos</a></li>
         </div><br />
 
