@@ -80,6 +80,18 @@ const Fotos = (props) => {
     {
       original: require("../assets/rcs19.jpeg"),
       thumbnail: require("../assets/rcs19.jpeg"),
+    },
+    {
+      original: require("../assets/rcs20.jpeg"),
+      thumbnail: require("../assets/rcs20.jpeg"),
+    },
+    {
+      original: require("../assets/rcs21.jpeg"),
+      thumbnail: require("../assets/rcs21.jpeg"),
+    },
+    {
+      original: require("../assets/rcs22.jpeg"),
+      thumbnail: require("../assets/rcs22.jpeg"),
     }
   ]
 
