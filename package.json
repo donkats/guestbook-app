@@ -5,7 +5,7 @@
   "author": "Don Kats",
   "dependencies": {
     "bulma": "^0.9.0",
-    "gatsby": "^2.24.55",
+    "gatsby": "^2.32.1",
     "gatsby-background-image": "^1.1.2",
     "gatsby-image": "^2.4.13",
     "gatsby-plugin-advanced-sitemap": "^1.5.5",
