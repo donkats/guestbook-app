@@ -14,7 +14,7 @@ const Omgeving = (props) => {
           <div class="column">
             <strong>Adres</strong><br />
             Complex Rocas de Mar <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><br />
-            Calle de Zeus 6, appartement 102<br />
+            Calle de Zeus 6<br />
             38630 Costa del Silencio<br />
             Tenerife
             </div>
@@ -27,7 +27,7 @@ const Omgeving = (props) => {
         <br />
         <div className="container">
           Het rustige 4-sterrencomplex beschikt over 2 grote buitenzwembaden met gefilterd zeewater,
-          waarvan 1 ‘s winters verwarmd is. Een kinderbadje met zoet water en een groot zonneterras. Al
+          waarvan 1 het gehele jaar verwarmd is. Een kinderbadje met zoet water en een groot zonneterras. Al
           onze gasten kunnen hier gebruik van maken met een zwembadkaart, waarvan er 2 in het
           appartement aanwezig zijn, en zo ook van de beschikbare ligbedden en parasols. Direct naast het
           zwembad bevindt zich een klein café voor hapjes en drankjes, genaamd “La Cabaña”.
